@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ebe5ee3f98f02ca",
+            "id": "eb350d93d212c2c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2284b69bfc25372a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Kubernetes (k8s).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fec0e884b58e7222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Kubernetes (k8s).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9e6f59cd9548d06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Rancher (k3s).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
+                "file": "Technologies/Rancher (k3s).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
+                "file": "Technologies/Rancher (k3s).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +162,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md"
+                "file": "Technologies/Rancher (k3s).md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1260e38683d607d3",
+  "active": "a9e6f59cd9548d06",
   "lastOpenFiles": [
+    "Technologies/Kubernetes (k8s).md",
+    "Technologies/Rancher (k3s).md",
+    "Technologies/Helm.md",
+    "Daily Learning/Daily Lab 1.md",
+    "Technologies",
+    "2023-04-26.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Reminders.md",
     "Certifications",
     "Labs",
-    "Daily Learning/Daily Lab 1.md",
     "Daily Learning"
   ]
 }

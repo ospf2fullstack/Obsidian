@@ -4,3 +4,7 @@ Today, I'm learning how to advance my k8s understanding of networking.
 3. How to get a pod to be publically accessible
 
 I'm also running a mile tonight, so I need to make sure I don't kill my PC before my release. 
+
+
+
+#dailylabs 
