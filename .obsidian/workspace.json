@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "51d0a890c16e2dc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "79e9c1e244ec872d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ebe5ee3f98f02ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73e92cd964737258",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fb5d62ce806a682",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1260e38683d607d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d87be5ccad9df05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf60b6b991d17503",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e9a38ccddeff682",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cfcf424be28f7ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95f6f5447ed5aefd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8324c5b6ef52e56",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "261d119364f017d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aa3fbf9d6d6562d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1260e38683d607d3",
+  "lastOpenFiles": [
+    "Certifications",
+    "Labs",
+    "Daily Learning/Daily Lab 1.md",
+    "Daily Learning"
+  ]
+}
