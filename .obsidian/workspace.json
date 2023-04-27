@@ -4,52 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "79e9c1e244ec872d",
+        "id": "21a8d57b504da7b8",
         "type": "tabs",
+        "dimension": 62.29151559100797,
         "children": [
           {
-            "id": "eb350d93d212c2c0",
+            "id": "f788afba83818cce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Daily Learning/Daily Lab 1.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2593d2bb4fbe4fdf",
+        "type": "tabs",
+        "dimension": 37.70848440899202,
+        "children": [
+          {
+            "id": "8a09eb163ce406af",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Building Information Collection/Photogrammetry.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.0000000000000033,
+                  "close": false
+                }
               }
             }
           },
           {
-            "id": "2284b69bfc25372a",
+            "id": "dffd2b862e40a386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Deployments/AWS Cloud Resume Challenge.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fec0e884b58e7222",
+            "id": "8b79cb4e42273829",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Building Information Collection/Point Clouds.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a9e6f59cd9548d06",
+            "id": "94aa5dfa4c4d0299",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Rancher (k3s).md",
+                "file": "Building Information Collection/Photogrammetry.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Rancher (k3s).md",
+                "file": "Building Information Collection/Photogrammetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Rancher (k3s).md",
+                "file": "Building Information Collection/Photogrammetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,16 +205,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Rancher (k3s).md"
+                "file": "Building Information Collection/Photogrammetry.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,17 +227,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9e6f59cd9548d06",
+  "active": "94aa5dfa4c4d0299",
   "lastOpenFiles": [
+    "Building Information Collection/Point Clouds.md",
+    "Building Information Collection/Photogrammetry.md",
+    "Deployments/AWS Cloud Resume Challenge.md",
+    "Building Information Collection",
+    "Daily Learning/Daily Lab 1.md",
+    "Deployments",
+    "Technologies/Github.md",
+    "Technologies/Gitlab.md",
+    "Reminders.md",
     "Technologies/Kubernetes (k8s).md",
+    "Technologies/Perforce.md",
+    "Technologies/Fundamentals/Cloud.md",
+    "Technologies/Fundamentals/Personal Computers.md",
+    "Technologies/Fundamentals/Systems.md",
+    "Technologies/AWS/EC2.md",
+    "Technologies/AWS/S3.md",
+    "Technologies/AWS",
+    "Technologies/Fundamentals",
+    "Technologies/Ansible.md",
+    "Technologies/RedHat.md",
+    "Technologies/Fundamentals/Networking.md",
     "Technologies/Rancher (k3s).md",
     "Technologies/Helm.md",
-    "Daily Learning/Daily Lab 1.md",
     "Technologies",
     "2023-04-26.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Reminders.md",
     "Certifications",
     "Labs",
     "Daily Learning"
