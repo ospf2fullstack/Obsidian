@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c278d940f1b4e86a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Landing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2593d2bb4fbe4fdf",
@@ -33,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Building Information Collection/Photogrammetry.md",
+                "file": "Landing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Building Information Collection/Photogrammetry.md",
+                "file": "Landing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Building Information Collection/Photogrammetry.md",
+                "file": "Landing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Building Information Collection/Photogrammetry.md"
+                "file": "Landing.md"
               }
             }
           }
@@ -224,16 +237,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "publish:Publish changes": false
     }
   },
-  "active": "94aa5dfa4c4d0299",
+  "active": "c278d940f1b4e86a",
   "lastOpenFiles": [
-    "Building Information Collection/Point Clouds.md",
+    "Daily Learning/Daily Lab 1.md",
+    "Landing.md",
     "Building Information Collection/Photogrammetry.md",
+    "Building Information Collection/Point Clouds.md",
     "Deployments/AWS Cloud Resume Challenge.md",
     "Building Information Collection",
-    "Daily Learning/Daily Lab 1.md",
     "Deployments",
     "Technologies/Github.md",
     "Technologies/Gitlab.md",
