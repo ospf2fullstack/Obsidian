@@ -6,89 +6,9 @@
       {
         "id": "21a8d57b504da7b8",
         "type": "tabs",
-        "dimension": 62.29151559100797,
         "children": [
           {
             "id": "f788afba83818cce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c278d940f1b4e86a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Landing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "2593d2bb4fbe4fdf",
-        "type": "tabs",
-        "dimension": 37.70848440899202,
-        "children": [
-          {
-            "id": "8a09eb163ce406af",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Landing.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1.0000000000000033,
-                  "close": false
-                }
-              }
-            }
-          },
-          {
-            "id": "dffd2b862e40a386",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployments/AWS Cloud Resume Challenge.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b79cb4e42273829",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "94aa5dfa4c4d0299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Building Information Collection/Photogrammetry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Landing.md",
+                "file": "Building Information Collection/Point Clouds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Landing.md",
+                "file": "Building Information Collection/Point Clouds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Landing.md"
+                "file": "Building Information Collection/Point Clouds.md"
               }
             }
           }
@@ -241,12 +148,13 @@
       "publish:Publish changes": false
     }
   },
-  "active": "c278d940f1b4e86a",
+  "active": "f788afba83818cce",
   "lastOpenFiles": [
+    "Building Information Collection/Visualize 3D Models.md",
+    "Building Information Collection/Point Clouds.md",
+    "Building Information Collection/Photogrammetry.md",
     "Daily Learning/Daily Lab 1.md",
     "Landing.md",
-    "Building Information Collection/Photogrammetry.md",
-    "Building Information Collection/Point Clouds.md",
     "Deployments/AWS Cloud Resume Challenge.md",
     "Building Information Collection",
     "Deployments",
