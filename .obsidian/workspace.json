@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "21a8d57b504da7b8",
+        "id": "5171869c3fc60f56",
         "type": "tabs",
         "children": [
           {
-            "id": "f788afba83818cce",
+            "id": "8b2242dd9e571208",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "475b51217d755c30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployments/LaMaestraLoca.com.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deployments/LaMaestraLoca.com.md",
+                "file": "Assets/Pasted image 20230428160034.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployments/LaMaestraLoca.com.md",
+                "file": "Assets/Pasted image 20230428160034.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployments/LaMaestraLoca.com.md"
+                "file": "Assets/Pasted image 20230428160034.png"
               }
             }
           }
@@ -161,14 +144,18 @@
       "publish:Publish changes": false
     }
   },
-  "active": "475b51217d755c30",
+  "active": "1260e38683d607d3",
   "lastOpenFiles": [
-    "Deployments/GaryInnerarity.com.md",
-    "Deployments/AWS Cloud Resume Challenge.md",
     "Deployments/Brain.GaryInnerarity.com.md",
-    "Deployments/LaMaestraLoca.com.md",
-    "Pasted image 20230428162419.png",
+    "Assets",
+    "Assets/Pasted image 20230428162724.png",
+    "Deployments/AWS Cloud Resume Challenge.md",
+    "Deployments/GaryInnerarity.com.md",
+    "Assets/Pasted image 20230428162642.png",
+    "Assets/Pasted image 20230428162604.png",
     "Daily Learning/Daily Lab 1.md",
+    "Deployments/LaMaestraLoca.com.md",
+    "Assets/Pasted image 20230428162419.png",
     "Technologies/Obsidian/Obsidian.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Github/Github Actions.md",
@@ -180,10 +167,10 @@
     "Technologies/Obsidian",
     "Reminders.md",
     "Technologies/Anycubic.md",
-    "Pasted image 20230428160909.png",
-    "Pasted image 20230428160645.png",
+    "Assets/Pasted image 20230428160909.png",
+    "Assets/Pasted image 20230428160645.png",
     "Technologies/3D Printing.md",
-    "Pasted image 20230428160034.png",
+    "Assets/Pasted image 20230428160034.png",
     "Qualifications/Degrees/Masters in Business Administration for IT Management.md",
     "Qualifications/Degrees/Bachelors of Science in Psychology.md",
     "Qualifications/Certifications/Amplified IT Admin Level 1.md",
@@ -201,7 +188,6 @@
     "Deployments",
     "Technologies/AWS",
     "Technologies/Fundamentals",
-    "Technologies",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

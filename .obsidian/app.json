@@ -1,4 +1,8 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Assets",
+  "userIgnoreFilters": [
+    "Assets/"
+  ]
 }
