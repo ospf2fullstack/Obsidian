@@ -20,55 +20,19 @@
             }
           },
           {
-            "id": "592154b85079983e",
+            "id": "475b51217d755c30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49c0b3a7c983cf06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployments/GaryInnerarity.com.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ccd7de6ce9112bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Obsidian/Obsidian Publish.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2043136887809be9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/CloudFlare.md",
+                "file": "Deployments/LaMaestraLoca.com.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +62,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/CloudFlare.md",
+                "file": "Deployments/LaMaestraLoca.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/CloudFlare.md",
+                "file": "Deployments/LaMaestraLoca.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/CloudFlare.md"
+                "file": "Deployments/LaMaestraLoca.com.md"
               }
             }
           }
@@ -197,23 +161,29 @@
       "publish:Publish changes": false
     }
   },
-  "active": "2043136887809be9",
+  "active": "475b51217d755c30",
   "lastOpenFiles": [
+    "Deployments/GaryInnerarity.com.md",
+    "Deployments/AWS Cloud Resume Challenge.md",
+    "Deployments/Brain.GaryInnerarity.com.md",
+    "Deployments/LaMaestraLoca.com.md",
+    "Pasted image 20230428162419.png",
+    "Daily Learning/Daily Lab 1.md",
+    "Technologies/Obsidian/Obsidian.md",
     "Technologies/Obsidian/Obsidian Publish.md",
+    "Technologies/Github/Github Actions.md",
+    "Technologies/Github/Github.md",
+    "Technologies/Github",
     "Technologies/CloudFlare.md",
     "Daily Learning/Daily Lab 2.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
     "Technologies/Obsidian",
-    "Deployments/GaryInnerarity.com.md",
-    "Deployments/Brain.GaryInnerarity.com.md",
-    "Technologies/Obsidian/Obsidian.md",
     "Reminders.md",
     "Technologies/Anycubic.md",
     "Pasted image 20230428160909.png",
     "Pasted image 20230428160645.png",
     "Technologies/3D Printing.md",
     "Pasted image 20230428160034.png",
-    "Daily Learning/Daily Lab 1.md",
     "Qualifications/Degrees/Masters in Business Administration for IT Management.md",
     "Qualifications/Degrees/Bachelors of Science in Psychology.md",
     "Qualifications/Certifications/Amplified IT Admin Level 1.md",
@@ -226,19 +196,13 @@
     "Qualifications/Certifications/CompTIA Security+.md",
     "Qualifications/Certifications/Microsoft Technology Associate Networking (MTA).md",
     "Qualifications/Certifications/Cisco Meraki Network Operator.md",
-    "Qualifications/Certifications/Amplified IT Admin Level 2.md",
-    "Qualifications/Certifications/Amplified IT Security.md",
-    "Technologies/AI/Cora.ai.md",
     "Technologies/AI",
-    "Qualifications/Certifications/AWS Cloud Practitioner.md",
-    "Qualifications/Certifications/AWS Solutions Associate.md",
     "Building Information Collection",
     "Deployments",
     "Technologies/AWS",
     "Technologies/Fundamentals",
     "Technologies",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Qualifications"
+    "Untitled.canvas"
   ]
 }
