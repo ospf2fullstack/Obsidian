@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "592154b85079983e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Obsidian/Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49c0b3a7c983cf06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployments/GaryInnerarity.com.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ccd7de6ce9112bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Obsidian/Obsidian Publish.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2043136887809be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/CloudFlare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
+                "file": "Technologies/CloudFlare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md",
+                "file": "Technologies/CloudFlare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Learning/Daily Lab 1.md"
+                "file": "Technologies/CloudFlare.md"
               }
             }
           }
@@ -148,9 +197,23 @@
       "publish:Publish changes": false
     }
   },
-  "active": "f788afba83818cce",
+  "active": "2043136887809be9",
   "lastOpenFiles": [
+    "Technologies/Obsidian/Obsidian Publish.md",
+    "Technologies/CloudFlare.md",
     "Daily Learning/Daily Lab 2.md",
+    "Technologies/Obsidian/Obsidian Plugins.md",
+    "Technologies/Obsidian",
+    "Deployments/GaryInnerarity.com.md",
+    "Deployments/Brain.GaryInnerarity.com.md",
+    "Technologies/Obsidian/Obsidian.md",
+    "Reminders.md",
+    "Technologies/Anycubic.md",
+    "Pasted image 20230428160909.png",
+    "Pasted image 20230428160645.png",
+    "Technologies/3D Printing.md",
+    "Pasted image 20230428160034.png",
+    "Daily Learning/Daily Lab 1.md",
     "Qualifications/Degrees/Masters in Business Administration for IT Management.md",
     "Qualifications/Degrees/Bachelors of Science in Psychology.md",
     "Qualifications/Certifications/Amplified IT Admin Level 1.md",
@@ -169,24 +232,13 @@
     "Technologies/AI",
     "Qualifications/Certifications/AWS Cloud Practitioner.md",
     "Qualifications/Certifications/AWS Solutions Associate.md",
-    "Daily Learning/Daily Lab 1.md",
-    "Building Information Collection/Point Clouds.md",
-    "Building Information Collection/Visualize 3D Models.md",
-    "Building Information Collection/Photogrammetry.md",
-    "Landing.md",
-    "Deployments/AWS Cloud Resume Challenge.md",
     "Building Information Collection",
     "Deployments",
-    "Technologies/Github.md",
-    "Technologies/Gitlab.md",
-    "Reminders.md",
-    "Technologies/Kubernetes (k8s).md",
     "Technologies/AWS",
     "Technologies/Fundamentals",
     "Technologies",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Qualifications",
-    "Labs"
+    "Qualifications"
   ]
 }
