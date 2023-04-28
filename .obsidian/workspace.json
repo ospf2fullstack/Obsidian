@@ -11,8 +11,12 @@
             "id": "f788afba83818cce",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Learning/Daily Lab 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Learning/Daily Lab 1.md"
+              }
             }
           }
         ],
@@ -143,10 +150,29 @@
   },
   "active": "f788afba83818cce",
   "lastOpenFiles": [
+    "Daily Learning/Daily Lab 2.md",
+    "Qualifications/Degrees/Masters in Business Administration for IT Management.md",
+    "Qualifications/Degrees/Bachelors of Science in Psychology.md",
+    "Qualifications/Certifications/Amplified IT Admin Level 1.md",
+    "Qualifications/Certifications/Google Apps For Education (GAFE).md",
+    "Qualifications/Certifications/DevOps Essentials.md",
+    "Qualifications/Certifications/Google Cloud Fundamentals.md",
+    "Qualifications/Certifications/Cisco (CCNA + CCENT).md",
+    "Qualifications/Degrees",
+    "Qualifications/Certifications",
+    "Qualifications/Certifications/CompTIA Security+.md",
+    "Qualifications/Certifications/Microsoft Technology Associate Networking (MTA).md",
+    "Qualifications/Certifications/Cisco Meraki Network Operator.md",
+    "Qualifications/Certifications/Amplified IT Admin Level 2.md",
+    "Qualifications/Certifications/Amplified IT Security.md",
+    "Technologies/AI/Cora.ai.md",
+    "Technologies/AI",
+    "Qualifications/Certifications/AWS Cloud Practitioner.md",
+    "Qualifications/Certifications/AWS Solutions Associate.md",
+    "Daily Learning/Daily Lab 1.md",
     "Building Information Collection/Point Clouds.md",
     "Building Information Collection/Visualize 3D Models.md",
     "Building Information Collection/Photogrammetry.md",
-    "Daily Learning/Daily Lab 1.md",
     "Landing.md",
     "Deployments/AWS Cloud Resume Challenge.md",
     "Building Information Collection",
@@ -155,25 +181,12 @@
     "Technologies/Gitlab.md",
     "Reminders.md",
     "Technologies/Kubernetes (k8s).md",
-    "Technologies/Perforce.md",
-    "Technologies/Fundamentals/Cloud.md",
-    "Technologies/Fundamentals/Personal Computers.md",
-    "Technologies/Fundamentals/Systems.md",
-    "Technologies/AWS/EC2.md",
-    "Technologies/AWS/S3.md",
     "Technologies/AWS",
     "Technologies/Fundamentals",
-    "Technologies/Ansible.md",
-    "Technologies/RedHat.md",
-    "Technologies/Fundamentals/Networking.md",
-    "Technologies/Rancher (k3s).md",
-    "Technologies/Helm.md",
     "Technologies",
-    "2023-04-26.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Certifications",
-    "Labs",
-    "Daily Learning"
+    "Qualifications",
+    "Labs"
   ]
 }
