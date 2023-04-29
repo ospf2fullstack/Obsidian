@@ -6,6 +6,6 @@
     "Assets/"
   ],
   "livePreview": false,
-  "rightToLeft": true,
+  "rightToLeft": false,
   "spellcheck": true
 }

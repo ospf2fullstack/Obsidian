@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5171869c3fc60f56",
+        "id": "dec0f4032cc231d7",
         "type": "tabs",
         "children": [
           {
-            "id": "8b2242dd9e571208",
+            "id": "ac16dc2e9fd8965d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/Pasted image 20230428160034.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/Pasted image 20230428160034.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Assets/Pasted image 20230428160034.png"
-              }
+              "state": {}
             }
           }
         ],
@@ -142,8 +138,10 @@
       "publish:Publish changes": false
     }
   },
-  "active": "1260e38683d607d3",
+  "active": "ac16dc2e9fd8965d",
   "lastOpenFiles": [
+    "Technologies/Git.md",
+    "Technologies/CloudFlare.md",
     "Deployments/Brain.GaryInnerarity.com.md",
     "Assets",
     "Assets/Pasted image 20230428162724.png",
@@ -159,7 +157,6 @@
     "Technologies/Github/Github Actions.md",
     "Technologies/Github/Github.md",
     "Technologies/Github",
-    "Technologies/CloudFlare.md",
     "Daily Learning/Daily Lab 2.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
     "Technologies/Obsidian",
