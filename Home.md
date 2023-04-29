@@ -1,11 +1,9 @@
 # Hello👋
 
-- 🔭 I’m currently working on Digital Twins. 
-- 🌱 I’m currently learning Terraform, Kubernetes and Javascript
-- 🤔 I’m looking for help with EVERYTHING. 
-- 📫 How to reach me: posted on profile...
-- ⚡ Fun fact: I'm addicted to learning and progressing. 
-
+- 🔭 I’m currently working on Digital Twins; exploring [[Photogrammetry]], [[Point Clouds]], and [[Visualize 3D Models]] to optimize Building Information Management in Advanced Manufacturing. 
+- 🌱 I’m currently learning [[Terraform]], [[Kubernetes (k8s)]] and [[Git]].
+- ⚡ Fun fact: I have an obsession with learning and tinkering. 
+---
 ## Things I Break
 
  - <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
@@ -21,7 +19,7 @@
  - <img alt="Github" src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github"/>
  - <img alt="GitLab" src="https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab"/>
  - <img alt="Raspberry Pi" src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi"/>
-
+---
 # Github Stats
 ![Hub Stats](https://github-readme-stats.vercel.app/api?username=ospf2fullstack&show_icons=true&hide_title=true&theme=solarized-dark&count_private=true&hide=stars)
 ![Hub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ospf2fullstack&hide=TeX&layout=compact)
