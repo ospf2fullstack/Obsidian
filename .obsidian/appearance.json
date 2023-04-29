@@ -1,5 +1,9 @@
 {
-  "accentColor": "",
+  "accentColor": "#3781a9",
   "cssTheme": "Minimal",
-  "interfaceFontFamily": "Georgia"
+  "interfaceFontFamily": "Georgia",
+  "theme": "moonstone",
+  "textFontFamily": "Georgia",
+  "monospaceFontFamily": "Andale Mono",
+  "translucency": true
 }

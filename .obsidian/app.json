@@ -4,5 +4,8 @@
   "attachmentFolderPath": "Assets",
   "userIgnoreFilters": [
     "Assets/"
-  ]
+  ],
+  "livePreview": false,
+  "rightToLeft": true,
+  "spellcheck": true
 }
