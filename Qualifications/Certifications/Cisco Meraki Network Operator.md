@@ -1,0 +1,1 @@
+This certification, which I achieved twice, was foundational to utilizing the Meraki [[Networking]] stack. 

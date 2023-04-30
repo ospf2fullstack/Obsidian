@@ -1,7 +1,7 @@
 
-# Point Cloud Processing/Registration
+# Automate [[Point Clouds]] Processing/Registration
 
-# Mesh Generation
+# Mesh Generation with [[Photogrammetry]]
 
 # Object Segmentation
 
