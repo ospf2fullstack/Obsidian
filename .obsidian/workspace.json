@@ -6,7 +6,6 @@
       {
         "id": "e03db0fd77b3e140",
         "type": "tabs",
-        "dimension": 42.88770053475936,
         "children": [
           {
             "id": "6444b0325bb76ce2",
@@ -14,39 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3839e16b2a9bc6c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "52769f4fb3d3a8c8",
-        "type": "tabs",
-        "dimension": 57.11229946524064,
-        "children": [
-          {
-            "id": "9fa23a204f0100dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Qualifications/Certifications/AWS Cloud Practitioner.md",
+                "file": "Technologies/Fundamentals/Linux.md",
                 "mode": "source",
                 "source": true
               }
@@ -102,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 200
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -118,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Qualifications/Certifications/AWS Cloud Practitioner.md",
+                "file": "Technologies/Fundamentals/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Qualifications/Certifications/AWS Cloud Practitioner.md",
+                "file": "Technologies/Fundamentals/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Qualifications/Certifications/AWS Cloud Practitioner.md"
+                "file": "Technologies/Fundamentals/Linux.md"
               }
             }
           }
@@ -179,11 +146,12 @@
       "publish:Publish changes": false
     }
   },
-  "active": "9fa23a204f0100dc",
+  "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
+    "Home.md",
+    "Qualifications/Certifications/AWS Cloud Practitioner.md",
     "Assets/Pasted image 20230429195421.png",
     "Deployments/AWS Cloud Resume Challenge.md",
-    "Home.md",
     "Technologies/AI/Cora.ai.md",
     "Technologies/Helm.md",
     "Technologies/Fundamentals/Systems.md",
@@ -200,7 +168,6 @@
     "Qualifications/Certifications/Cisco Meraki Network Operator.md",
     "Qualifications/Certifications/Cisco (CCNA + CCENT).md",
     "Qualifications/Certifications/AWS Solutions Associate.md",
-    "Qualifications/Certifications/AWS Cloud Practitioner.md",
     "Building Information Collection/Visualize 3D Models.md",
     "Building Information Collection/Photogrammetry.md",
     "Technologies/Fundamentals/Cloud.md",
