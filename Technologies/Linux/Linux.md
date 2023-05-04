@@ -5,7 +5,6 @@ Ubuntu
 RHEL
 CentOS 
 
-
 ## Shell Types
 There are several shell types with bash being the preferred
 Shell (Bourne Shell) = bash 
@@ -13,7 +12,6 @@ Z Shell (zsh)
 C Shell (csh)
 
 I prefer using [[Git Bash]] for my shell environment. 
-
 
 ## assumed knowledge
 root = super user

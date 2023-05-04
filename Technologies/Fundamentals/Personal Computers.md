@@ -12,4 +12,7 @@ Each category has an entire market dedicated to them, but for a fundamental note
 # POST
 Power On Self Test. The process routine that immediately engages when the computer is invoked to power up.  This is often the first line of defense when determining if a computer has a hardware or software failure problem. If a PC does not POST, you may need to consider swapping out [components](#components). 
 
+# Operating Systems
+You can basically deploy anything to a computer... literally. But start with the fundamentals [[Linux]], [[Microsoft Windows]]
+
 #compute #personalcomputer

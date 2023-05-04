@@ -15,7 +15,7 @@
               {
                 "id": "e03db0fd77b3e140",
                 "type": "tabs",
-                "dimension": 58.12013348164628,
+                "dimension": 51.11234705228031,
                 "children": [
                   {
                     "id": "6444b0325bb76ce2",
@@ -34,7 +34,7 @@
               {
                 "id": "c240b3a9e31a34ac",
                 "type": "tabs",
-                "dimension": 41.87986651835372,
+                "dimension": 48.88765294771969,
                 "children": [
                   {
                     "id": "3d68ab44876f151f",
@@ -42,7 +42,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Technologies/Fundamentals/Personal Computers.md",
+                        "file": "Qualifications/Degrees/Bachelors of Science in Psychology.md",
                         "mode": "source",
                         "source": true
                       }
@@ -59,11 +59,16 @@
             "dimension": 40.589080459770116,
             "children": [
               {
-                "id": "f04c0c4ffb11ceaf",
+                "id": "b1f8aca011f3f6ab",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Technologies/AWS/IoT Core.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
                 }
               }
             ]
@@ -143,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Microsoft Windows.md",
+                "file": "Technologies/AWS/IoT Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Microsoft Windows.md",
+                "file": "Technologies/AWS/IoT Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Microsoft Windows.md"
+                "file": "Technologies/AWS/IoT Core.md"
               }
             }
           }
@@ -201,16 +206,31 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "6444b0325bb76ce2",
+  "active": "b1f8aca011f3f6ab",
   "lastOpenFiles": [
-    "Technologies/Fundamentals/Personal Computers.md",
+    "Technologies/AWS/IoT Core.md",
     "Technologies/Microsoft Windows.md",
-    "Technologies/Anycubic.md",
-    "Technologies/Fundamentals/Linux.md",
+    "Qualifications/Degrees/Bachelors of Science in Psychology.md",
+    "Technologies/3D Printing/3D Printing.md",
+    "Technologies/3D Printing/Printers/Anycubic.md",
+    "Technologies/3D Printing/Printers",
+    "Technologies/Fundamentals/Personal Computers.md",
+    "Technologies/Systems/Systems.md",
     "Home.md",
+    "Templates",
+    "Technologies/Tools",
+    "Technologies/3D Printing",
+    "Technologies/Networking/Networking.md",
+    "Technologies/Systems",
+    "Technologies/Networking",
+    "Technologies/Linux",
+    "Technologies/Fundamentals/Cloud.md",
+    "Technologies/Cloud Native",
+    "Technologies/Linux/Linux.md",
     "Building Information Management/Photogrammetry.md",
     "Building Information Management/Visualize 3D Models.md",
     "Building Information Management/Point Clouds.md",
@@ -226,12 +246,6 @@
     "Qualifications/Certifications/Google Apps For Education (GAFE).md",
     "Qualifications/Certifications/Google Cloud Fundamentals.md",
     "Qualifications/Certifications/Microsoft Technology Associate Networking (MTA).md",
-    "Qualifications/Certifications/Amplified IT Admin Level 1.md",
-    "Qualifications/Certifications/Amplified IT Admin Level 2.md",
-    "Qualifications/Certifications/Amplified IT Security.md",
-    "Qualifications/Certifications/AWS Cloud Practitioner.md",
-    "Qualifications/Certifications/Cisco (CCNA + CCENT).md",
-    "Qualifications/Certifications/DevOps Essentials.md",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
     "Assets/GCP Cloud Fundamentals.pdf",
@@ -244,14 +258,6 @@
     "Assets/Pasted image 20230503194310.png",
     "Assets/Pasted image 20230503194243.png",
     "Assets",
-    "Technologies/Github",
-    "Technologies/Obsidian",
-    "Qualifications/Degrees",
-    "Qualifications/Certifications",
-    "Technologies/AI",
-    "Building Information Management",
-    "Deployments",
-    "Technologies/AWS",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
