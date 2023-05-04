@@ -4,22 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "e03db0fd77b3e140",
-        "type": "tabs",
+        "id": "b3f6748013b72c61",
+        "type": "split",
         "children": [
           {
-            "id": "6444b0325bb76ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Fundamentals/Linux.md",
-                "mode": "source",
-                "source": true
+            "id": "80efb3bc93395ce1",
+            "type": "split",
+            "dimension": 59.41091954022989,
+            "children": [
+              {
+                "id": "e03db0fd77b3e140",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "6444b0325bb76ce2",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Deployments/AWS Cloud Resume Challenge.md",
+                        "mode": "source",
+                        "source": true
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "93c2d7e0d153ff80",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "efcab15d7ef92d1b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {}
+                    }
+                  }
+                ]
               }
-            }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "83582ae35cf2df86",
+            "type": "tabs",
+            "dimension": 40.589080459770116,
+            "children": [
+              {
+                "id": "f04c0c4ffb11ceaf",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -64,6 +108,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "097898148f02c6db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Fundamentals/Linux.md",
+                "file": "Deployments/AWS Cloud Resume Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Fundamentals/Linux.md",
+                "file": "Deployments/AWS Cloud Resume Challenge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Fundamentals/Linux.md"
+                "file": "Deployments/AWS Cloud Resume Challenge.md"
               }
             }
           }
@@ -139,58 +191,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "publish:Publish changes": false
+      "templates:Insert template": false
     }
   },
   "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
-    "Home.md",
+    "Deployments/Brain.GaryInnerarity.com.md",
+    "Deployments/GaryInnerarity.com.md",
+    "Deployments/LaMaestraLoca.com.md",
+    "Qualifications/Certifications/Cisco Meraki Network Operator.md",
+    "Qualifications/Certifications/CompTIA Security+.md",
+    "Qualifications/Certifications/Google Apps For Education (GAFE).md",
+    "Qualifications/Certifications/Google Cloud Fundamentals.md",
+    "Qualifications/Certifications/Microsoft Technology Associate Networking (MTA).md",
+    "Qualifications/Certifications/Amplified IT Admin Level 1.md",
+    "Qualifications/Certifications/Amplified IT Admin Level 2.md",
+    "Qualifications/Certifications/Amplified IT Security.md",
     "Qualifications/Certifications/AWS Cloud Practitioner.md",
-    "Assets/Pasted image 20230429195421.png",
+    "Qualifications/Certifications/Cisco (CCNA + CCENT).md",
+    "Qualifications/Certifications/DevOps Essentials.md",
+    "Assets/Pasted image 20230503195104.png",
+    "Assets/Pasted image 20230503195009.png",
+    "Assets/GCP Cloud Fundamentals.pdf",
+    "Assets/SecurityPlus Logo Certified CE.jpg",
+    "Assets/Pasted image 20230503194840.png",
+    "Assets/AMPAdminSec.png",
+    "Assets/AMPAdminII.png",
+    "Assets/AMPAdminI.png",
+    "Assets/Pasted image 20230503194332.png",
+    "Assets/Pasted image 20230503194310.png",
+    "Assets/Pasted image 20230503194243.png",
+    "Building Information Management/Drone.md",
+    "Building Information Management/Point Clouds.md",
+    "Building Information Management/Photogrammetry.md",
+    "Building Information Management/BIM (Collection) Automation.md",
+    "Technologies/Fundamentals/Linux.md",
+    "Home.md",
     "Deployments/AWS Cloud Resume Challenge.md",
     "Technologies/AI/Cora.ai.md",
     "Technologies/Helm.md",
     "Technologies/Fundamentals/Systems.md",
     "Technologies/3D Printing.md",
     "Technologies/Ansible.md",
-    "Technologies/Perforce.md",
-    "Technologies/Rancher (k3s).md",
-    "Technologies/RedHat.md",
-    "Technologies/Anycubic.md",
-    "Technologies/Fundamentals/Linux.md",
-    "Qualifications/Certifications/CompTIA Security+.md",
-    "Technologies/AWS/S3.md",
-    "Building Information Collection/BIM Automation.md",
-    "Qualifications/Certifications/Cisco Meraki Network Operator.md",
-    "Qualifications/Certifications/Cisco (CCNA + CCENT).md",
-    "Qualifications/Certifications/AWS Solutions Associate.md",
-    "Building Information Collection/Visualize 3D Models.md",
-    "Building Information Collection/Photogrammetry.md",
-    "Technologies/Fundamentals/Cloud.md",
-    "Technologies/CloudFlare.md",
-    "Technologies/Git Bash.md",
-    "Technologies/Fundamentals/Personal Computers.md",
     "Assets",
-    "Assets/Pasted image 20230428162724.png",
-    "Assets/Pasted image 20230428162642.png",
-    "Assets/Pasted image 20230428162604.png",
-    "Assets/Pasted image 20230428162419.png",
     "Technologies/Github",
     "Technologies/Obsidian",
-    "Assets/Pasted image 20230428160909.png",
-    "Assets/Pasted image 20230428160645.png",
-    "Assets/Pasted image 20230428160034.png",
     "Qualifications/Degrees",
     "Qualifications/Certifications",
     "Technologies/AI",
-    "Building Information Collection",
+    "Building Information Management",
     "Deployments",
     "Technologies/AWS",
-    "Technologies/Fundamentals",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
