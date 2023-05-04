@@ -15,7 +15,7 @@
               {
                 "id": "e03db0fd77b3e140",
                 "type": "tabs",
-                "dimension": 51.11234705228031,
+                "dimension": 30.334890965732086,
                 "children": [
                   {
                     "id": "6444b0325bb76ce2",
@@ -34,7 +34,7 @@
               {
                 "id": "c240b3a9e31a34ac",
                 "type": "tabs",
-                "dimension": 48.88765294771969,
+                "dimension": 69.66510903426791,
                 "children": [
                   {
                     "id": "3d68ab44876f151f",
@@ -42,7 +42,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Qualifications/Degrees/Bachelors of Science in Psychology.md",
+                        "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
                         "mode": "source",
                         "source": true
                       }
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/AWS/IoT Core.md",
+                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/AWS/IoT Core.md",
+                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/AWS/IoT Core.md"
+                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md"
               }
             }
           }
@@ -210,11 +210,14 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b1f8aca011f3f6ab",
+  "active": "3d68ab44876f151f",
   "lastOpenFiles": [
     "Technologies/AWS/IoT Core.md",
-    "Technologies/Microsoft Windows.md",
+    "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Qualifications/Degrees/Bachelors of Science in Psychology.md",
+    "Technologies/IoT/SparkFun",
+    "Technologies/IoT",
+    "Technologies/Microsoft Windows.md",
     "Technologies/3D Printing/3D Printing.md",
     "Technologies/3D Printing/Printers/Anycubic.md",
     "Technologies/3D Printing/Printers",
@@ -245,10 +248,8 @@
     "Qualifications/Certifications/CompTIA Security+.md",
     "Qualifications/Certifications/Google Apps For Education (GAFE).md",
     "Qualifications/Certifications/Google Cloud Fundamentals.md",
-    "Qualifications/Certifications/Microsoft Technology Associate Networking (MTA).md",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
-    "Assets/GCP Cloud Fundamentals.pdf",
     "Assets/SecurityPlus Logo Certified CE.jpg",
     "Assets/Pasted image 20230503194840.png",
     "Assets/AMPAdminSec.png",
@@ -257,7 +258,6 @@
     "Assets/Pasted image 20230503194332.png",
     "Assets/Pasted image 20230503194310.png",
     "Assets/Pasted image 20230503194243.png",
-    "Assets",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
