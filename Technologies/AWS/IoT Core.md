@@ -310,8 +310,7 @@ Follow that link to a more comprehensive explanation of the code.
       calcGas = gas / 100.0;                                                                       // resistance in milliohms
 
     }
-
-    ```
+```
    
 ### Prerequisites
 [Github.com](http://Github.com) → Download Zip from the desired repo → Navigate to Arduino IDE → File → Preferences: Skethbook location: C:\User\Documents\Arduino (usually)
@@ -319,7 +318,8 @@ Follow that link to a more comprehensive explanation of the code.
 *Once you know the Arduino library location, you can drag the extracted zip file over to this location to import the libraries into Arduino IDE.*
 
 ---
-reference: 
+
+# reference: 
 [Original Source](https://aws.amazon.com/blogs/compute/building-an-aws-iot-core-device-using-aws-serverless-and-an-esp32/)
 Using a simple Arduino sketch, an AWS Serverless Application Repository application, and a microcontroller, you can build a basic serverless workflow for communicating with an AWS IoT Core device.
 
