@@ -15,6 +15,7 @@
               {
                 "id": "e03db0fd77b3e140",
                 "type": "tabs",
+                "dimension": 58.12013348164628,
                 "children": [
                   {
                     "id": "6444b0325bb76ce2",
@@ -22,7 +23,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Deployments/AWS Cloud Resume Challenge.md",
+                        "file": "Technologies/Fundamentals/Linux.md",
                         "mode": "source",
                         "source": true
                       }
@@ -31,15 +32,20 @@
                 ]
               },
               {
-                "id": "93c2d7e0d153ff80",
+                "id": "c240b3a9e31a34ac",
                 "type": "tabs",
+                "dimension": 41.87986651835372,
                 "children": [
                   {
-                    "id": "efcab15d7ef92d1b",
+                    "id": "3d68ab44876f151f",
                     "type": "leaf",
                     "state": {
-                      "type": "graph",
-                      "state": {}
+                      "type": "markdown",
+                      "state": {
+                        "file": "Technologies/Anycubic.md",
+                        "mode": "source",
+                        "source": true
+                      }
                     }
                   }
                 ]
@@ -56,8 +62,12 @@
                 "id": "f04c0c4ffb11ceaf",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Building Information Management/Photogrammetry.md",
+                    "mode": "source",
+                    "source": true
+                  }
                 }
               }
             ]
@@ -137,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deployments/AWS Cloud Resume Challenge.md",
+                "file": "Building Information Management/Photogrammetry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployments/AWS Cloud Resume Challenge.md",
+                "file": "Building Information Management/Photogrammetry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployments/AWS Cloud Resume Challenge.md"
+                "file": "Building Information Management/Photogrammetry.md"
               }
             }
           }
@@ -198,8 +208,18 @@
       "templates:Insert template": false
     }
   },
-  "active": "6444b0325bb76ce2",
+  "active": "f04c0c4ffb11ceaf",
   "lastOpenFiles": [
+    "Technologies/Fundamentals/Linux.md",
+    "Home.md",
+    "Building Information Management/Visualize 3D Models.md",
+    "Building Information Management/Photogrammetry.md",
+    "Building Information Management/Point Clouds.md",
+    "Building Information Management/Drone.md",
+    "Building Information Management/NeRF (Neural Radiance Fields).md",
+    "Building Information Management/BIM (Collection) Automation.md",
+    "Technologies/Anycubic.md",
+    "Deployments/AWS Cloud Resume Challenge.md",
     "Deployments/Brain.GaryInnerarity.com.md",
     "Deployments/GaryInnerarity.com.md",
     "Deployments/LaMaestraLoca.com.md",
@@ -225,18 +245,8 @@
     "Assets/Pasted image 20230503194332.png",
     "Assets/Pasted image 20230503194310.png",
     "Assets/Pasted image 20230503194243.png",
-    "Building Information Management/Drone.md",
-    "Building Information Management/Point Clouds.md",
-    "Building Information Management/Photogrammetry.md",
-    "Building Information Management/BIM (Collection) Automation.md",
-    "Technologies/Fundamentals/Linux.md",
-    "Home.md",
-    "Deployments/AWS Cloud Resume Challenge.md",
     "Technologies/AI/Cora.ai.md",
     "Technologies/Helm.md",
-    "Technologies/Fundamentals/Systems.md",
-    "Technologies/3D Printing.md",
-    "Technologies/Ansible.md",
     "Assets",
     "Technologies/Github",
     "Technologies/Obsidian",

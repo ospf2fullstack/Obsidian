@@ -36,7 +36,6 @@ I have a never ending list of qualifications that will continue to grow as long 
 7. [[Cisco (CCNA + CCENT)]]
 8. [[Cisco Meraki Network Operator]]
 9. [[CompTIA Security+]]
-10. [[DevOps Essentials]]
 11. [[Google Apps For Education (GAFE)]]
 12. [[Google Cloud Fundamentals]]
 13. [[Microsoft Technology Associate Networking (MTA)]]
