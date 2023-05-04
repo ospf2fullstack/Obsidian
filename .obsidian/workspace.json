@@ -64,7 +64,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Building Information Management/Photogrammetry.md",
+                    "file": "Home.md",
                     "mode": "source",
                     "source": true
                   }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Building Information Management/Photogrammetry.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Building Information Management/Photogrammetry.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Building Information Management/Photogrammetry.md"
+                "file": "Home.md"
               }
             }
           }
@@ -210,10 +210,10 @@
   },
   "active": "f04c0c4ffb11ceaf",
   "lastOpenFiles": [
+    "Building Information Management/Photogrammetry.md",
     "Technologies/Fundamentals/Linux.md",
     "Home.md",
     "Building Information Management/Visualize 3D Models.md",
-    "Building Information Management/Photogrammetry.md",
     "Building Information Management/Point Clouds.md",
     "Building Information Management/Drone.md",
     "Building Information Management/NeRF (Neural Radiance Fields).md",

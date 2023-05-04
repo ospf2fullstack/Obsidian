@@ -26,19 +26,4 @@
 ![Hub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ospf2fullstack&hide=TeX&layout=compact)
 
 ---
-I have a never ending list of qualifications that will continue to grow as long as I'm alive. 
-1. [[Bachelors of Science in Psychology]], with an original attempt at obtaining an Industrial Organizational Psychologist degree, I ended up discovering Technology during my first business venture and never looked back. 
-2. [[Masters in Business Administration for IT Management]], maybe I looked back a bit, but I couldn't separate myself from business. To this day, I love being technical and having a tight grasp on business. 
-3. [[Amplified IT Admin Level 1]]
-4. [[Amplified IT Admin Level 2]]
-5. [[Amplified IT Security]]
-6. [[AWS Cloud Practitioner]]
-7. [[Cisco (CCNA + CCENT)]]
-8. [[Cisco Meraki Network Operator]]
-9. [[CompTIA Security+]]
-11. [[Google Apps For Education (GAFE)]]
-12. [[Google Cloud Fundamentals]]
-13. [[Microsoft Technology Associate Networking (MTA)]]
-
----
 #home 
