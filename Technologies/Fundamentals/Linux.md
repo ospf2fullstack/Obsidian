@@ -14,6 +14,7 @@ C Shell (csh)
 
 I prefer using [[Git Bash]] for my shell environment. 
 
+
 ## assumed knowledge
 root = super user
 The etc file can be modified to allow regular users sudo privileges 

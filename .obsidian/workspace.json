@@ -143,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technologies/Fundamentals/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technologies/Fundamentals/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +182,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technologies/Fundamentals/Linux.md"
+              }
             }
           }
         ],
@@ -200,12 +204,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "f04c0c4ffb11ceaf",
+  "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
     "Technologies/Anycubic.md",
+    "Technologies/Fundamentals/Linux.md",
     "Home.md",
     "Building Information Management/Photogrammetry.md",
-    "Technologies/Fundamentals/Linux.md",
     "Building Information Management/Visualize 3D Models.md",
     "Building Information Management/Point Clouds.md",
     "Building Information Management/Drone.md",

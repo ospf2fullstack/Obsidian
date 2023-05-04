@@ -12,3 +12,4 @@ My other printer is the Anycubic Kobra Max. It has an enormous build plate.
 It's not the fastest printer on the market, but from an economical standpoint, it's 100% worth the money you spend on it. 
 
 [[3D Printing]]
+
