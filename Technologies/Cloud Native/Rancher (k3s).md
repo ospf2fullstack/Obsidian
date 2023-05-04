@@ -1,6 +1,0 @@
-
-
-
-[[Linux]], [[Cloud]]
-
-#rancher #cloudnative 

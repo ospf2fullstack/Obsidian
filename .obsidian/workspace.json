@@ -8,67 +8,35 @@
         "type": "split",
         "children": [
           {
-            "id": "80efb3bc93395ce1",
-            "type": "split",
-            "dimension": 59.41091954022989,
-            "children": [
-              {
-                "id": "e03db0fd77b3e140",
-                "type": "tabs",
-                "dimension": 30.334890965732086,
-                "children": [
-                  {
-                    "id": "6444b0325bb76ce2",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/Microsoft Windows.md",
-                        "mode": "source",
-                        "source": true
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "c240b3a9e31a34ac",
-                "type": "tabs",
-                "dimension": 69.66510903426791,
-                "children": [
-                  {
-                    "id": "3d68ab44876f151f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
-                        "mode": "source",
-                        "source": true
-                      }
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "83582ae35cf2df86",
+            "id": "c240b3a9e31a34ac",
             "type": "tabs",
-            "dimension": 40.589080459770116,
+            "dimension": 54.95689655172414,
             "children": [
               {
-                "id": "b1f8aca011f3f6ab",
+                "id": "3d68ab44876f151f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "Technologies/AWS/IoT Core.md",
                     "mode": "source",
-                    "backlinks": true,
                     "source": true
                   }
+                }
+              }
+            ]
+          },
+          {
+            "id": "83582ae35cf2df86",
+            "type": "tabs",
+            "dimension": 45.04310344827586,
+            "children": [
+              {
+                "id": "b1f8aca011f3f6ab",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
                 }
               }
             ]
@@ -148,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
+                "file": "Technologies/AWS/IoT Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
+                "file": "Technologies/AWS/IoT Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/IoT/SparkFun/ESP32 MicroMod.md"
+                "file": "Technologies/AWS/IoT Core.md"
               }
             }
           }
@@ -210,14 +178,36 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3d68ab44876f151f",
+  "active": "1260e38683d607d3",
   "lastOpenFiles": [
+    "Technologies/Cloud Native/Containers/Docker.md",
+    "Technologies/Cloud Native/Git/Git Bash.md",
+    "Technologies/Cloud Native/Git/Github/Github.md",
+    "Technologies/Cloud Native/Package Manager/Helm.md",
+    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
+    "Technologies/Cloud Native/Infrastructure as Code",
+    "Technologies/Cloud Native/Package Manager",
+    "Technologies/Cloud Native/Pods/Rancher (k3s).md",
+    "Technologies/Networking/pfsense.md",
+    "Technologies/Cloud Native/Containers/Podman.md",
+    "Technologies/IoT/IoT Types.md",
+    "Technologies/Cloud Native/Git",
+    "Technologies/Cloud Native/Pods",
+    "Technologies/Cloud Native/Containers",
+    "Technologies/Cloud Native/Infrastructure as Code/Terraform.md",
+    "Technologies/Tools/VS Code.md",
+    "Technologies/Microsoft Windows.md",
+    "Technologies/AWS/EC2.md",
+    "Technologies/CyberSecurity/NIST.md",
+    "Technologies/CyberSecurity",
+    "Qualifications/Certifications/AWS Cloud Practitioner.md",
     "Technologies/AWS/IoT Core.md",
+    "Technologies/AWS/S3.md",
+    "Technologies/AWS/STS.md",
     "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Qualifications/Degrees/Bachelors of Science in Psychology.md",
     "Technologies/IoT/SparkFun",
     "Technologies/IoT",
-    "Technologies/Microsoft Windows.md",
     "Technologies/3D Printing/3D Printing.md",
     "Technologies/3D Printing/Printers/Anycubic.md",
     "Technologies/3D Printing/Printers",
@@ -225,29 +215,7 @@
     "Technologies/Systems/Systems.md",
     "Home.md",
     "Templates",
-    "Technologies/Tools",
-    "Technologies/3D Printing",
     "Technologies/Networking/Networking.md",
-    "Technologies/Systems",
-    "Technologies/Networking",
-    "Technologies/Linux",
-    "Technologies/Fundamentals/Cloud.md",
-    "Technologies/Cloud Native",
-    "Technologies/Linux/Linux.md",
-    "Building Information Management/Photogrammetry.md",
-    "Building Information Management/Visualize 3D Models.md",
-    "Building Information Management/Point Clouds.md",
-    "Building Information Management/Drone.md",
-    "Building Information Management/NeRF (Neural Radiance Fields).md",
-    "Building Information Management/BIM (Collection) Automation.md",
-    "Deployments/AWS Cloud Resume Challenge.md",
-    "Deployments/Brain.GaryInnerarity.com.md",
-    "Deployments/GaryInnerarity.com.md",
-    "Deployments/LaMaestraLoca.com.md",
-    "Qualifications/Certifications/Cisco Meraki Network Operator.md",
-    "Qualifications/Certifications/CompTIA Security+.md",
-    "Qualifications/Certifications/Google Apps For Education (GAFE).md",
-    "Qualifications/Certifications/Google Cloud Fundamentals.md",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
     "Assets/SecurityPlus Logo Certified CE.jpg",

@@ -9,3 +9,16 @@
 ## Boot to a Bootable Disk
 1. Insert Bootable disk from [Create Windows 10 Image](#Create-Windows-10-Image)
 2. F2, F10, F11, F12 - depending on your system to get into the Boot menu when you're putting the computer through  POST: ![[Personal Computers#POST]]. 
+---
+# Terminal Commands
+## PowerShell
+```powershell
+Set-Alias k kubectl
+```
+
+## Command Prompt
+
+
+
+
+#windows #os #cli
