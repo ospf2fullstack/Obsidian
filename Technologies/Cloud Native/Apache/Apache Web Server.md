@@ -15,6 +15,11 @@ cat /var/log/httpd/error_log # error log
 # Config File
 ```bash
 /etc/httpd/conf/httpd.conf
+> # add as many ofthese as you need to redirect domain to hosts
+> 	# <VirtualHost *:80>
+> 		# ServerName www.domain.com
+> 		# DocumentRoot /var/www/houses
+> 	# </VirtualHost>
 ```
 
 ## Default HTTP Port - 80
@@ -24,8 +29,15 @@ cat /var/log/httpd/error_log # error log
 /var/www/html
 ```
 
+## DNS Entry
+```bash
+/etc/hosts
+```
 
-
-
+# Troubleshooting
+```bash
+# always restart after config changes
+service httpd restart 
+```
 
 Apache is a great web service for use in [[Linux]] Operating Systems. 
