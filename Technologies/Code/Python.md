@@ -46,7 +46,11 @@ cat requirements.txt
 > MarkupSafe==0.23
 > etc...
 
+# upgrade
+pip install flask --upgrade
 
+# uninstall
+pip uninstall flask -y
 ```
 
 # Troubleshoot Installs

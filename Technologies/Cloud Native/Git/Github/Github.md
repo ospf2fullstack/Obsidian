@@ -1,3 +1,6 @@
+# Github
+Using [[Git]] to source control your repositories. 
+
 ## Profile Stats
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3eecb6b4-0944-458c-8dc0-162b4a3e744e/Untitled.png)

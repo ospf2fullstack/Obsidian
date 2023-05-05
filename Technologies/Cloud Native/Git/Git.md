@@ -1,6 +1,5 @@
-
+# GIT (SCM - Source Control Manager)
 # Process
-
 ## Repository Management
 
 You must associate your working directory with a branch and that branch should be associated with a Jira ticket. 

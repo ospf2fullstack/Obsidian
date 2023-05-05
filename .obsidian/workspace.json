@@ -10,7 +10,7 @@
           {
             "id": "c924faab92786487",
             "type": "split",
-            "dimension": 55.5316091954023,
+            "dimension": 71.40877598152424,
             "children": [
               {
                 "id": "c240b3a9e31a34ac",
@@ -22,7 +22,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Technologies/Code/Python.md",
+                        "file": "Technologies/Cloud Native/Git/Git.md",
                         "mode": "source",
                         "backlinks": true,
                         "source": true
@@ -56,7 +56,7 @@
           {
             "id": "83582ae35cf2df86",
             "type": "tabs",
-            "dimension": 44.4683908045977,
+            "dimension": 28.591224018475753,
             "children": [
               {
                 "id": "b1f8aca011f3f6ab",
@@ -143,7 +143,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Code/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Code/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,9 +180,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Technologies/Code/Python.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -205,11 +201,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "3d68ab44876f151f",
+  "active": "b1f8aca011f3f6ab",
   "lastOpenFiles": [
+    "Technologies/Cloud Native/Git/Github/Github.md",
+    "Technologies/Cloud Native/Git/Git.md",
+    "Technologies/Code/Python.md",
     "Technologies/Linux/RedHat.md",
     "Technologies/Linux/Linux.md",
-    "Technologies/Code/Python.md",
     "Technologies/Code/HTMLCSS/CSS.md",
     "Technologies/Code/HTMLCSS/HTML.md",
     "Technologies/Code/JavaScript/NodeJS.md",
@@ -222,7 +220,6 @@
     "Technologies/AWS/IoT Core.md",
     "Technologies/Cloud Native/Containers/Docker.md",
     "Technologies/Cloud Native/Git/Git Bash.md",
-    "Technologies/Cloud Native/Git/Github/Github.md",
     "Technologies/Cloud Native/Package Manager/Helm.md",
     "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
     "Technologies/Cloud Native/Infrastructure as Code",
@@ -241,7 +238,6 @@
     "Technologies/CyberSecurity/NIST.md",
     "Technologies/CyberSecurity",
     "Qualifications/Certifications/AWS Cloud Practitioner.md",
-    "Technologies/AWS/S3.md",
     "Technologies/IoT/SparkFun",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
