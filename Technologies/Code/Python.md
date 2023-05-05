@@ -32,8 +32,27 @@ pip -V
 
 # install flask with pip
 pip install flask 
+
+# show application install and details
+pip show flask 
+
+# Use a single requirements document to manage dependences
+pip install -r requirements.txt 
+
+# sample requirements file with application versions specified
+cat requirements.txt 
+> Flask==0.10.1
+> Jinja2==2.7.3
+> MarkupSafe==0.23
+> etc...
+
+
 ```
 
+# Troubleshoot Installs
+```bash 
+python2 -c "import sys; print(sys.path)"
+```
 
 
 #data #code 
