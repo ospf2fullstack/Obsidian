@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Web Server.md",
+                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Web Server.md",
+                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Web Server.md",
+                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Web Server.md"
+                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md"
               }
             }
           }
@@ -158,9 +158,10 @@
   },
   "active": "3d68ab44876f151f",
   "lastOpenFiles": [
+    "Technologies/Cloud Native/Apache/Apache Web Server.md",
+    "Technologies/Cloud Native/Apache/Apache Tomcat.md",
     "Technologies/Linux/RedHat.md",
     "Technologies/Linux/Linux.md",
-    "Technologies/Cloud Native/Apache/Apache Web Server.md",
     "Technologies/Cloud Native/Git/Git.md",
     "Technologies/Cloud Native/Apache",
     "Home.md",
@@ -192,7 +193,6 @@
     "Technologies/Cloud Native/Infrastructure as Code/Terraform.md",
     "Technologies/Tools/VS Code.md",
     "Technologies/Microsoft Windows.md",
-    "Technologies/AWS/EC2.md",
     "Technologies/CyberSecurity",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
