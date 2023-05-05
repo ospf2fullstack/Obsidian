@@ -8,55 +8,29 @@
         "type": "split",
         "children": [
           {
-            "id": "c924faab92786487",
-            "type": "split",
+            "id": "c240b3a9e31a34ac",
+            "type": "tabs",
             "dimension": 71.40877598152424,
             "children": [
               {
-                "id": "c240b3a9e31a34ac",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "3d68ab44876f151f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/Cloud Native/Git/Git.md",
-                        "mode": "source",
-                        "backlinks": true,
-                        "source": true
-                      }
-                    }
+                "id": "3d68ab44876f151f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Technologies/Cloud Native/Apache/Apache Web Server.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
                   }
-                ]
-              },
-              {
-                "id": "95e43da0c58ac594",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "2928a00e1b430d6f",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/Linux/RedHat.md",
-                        "mode": "source",
-                        "backlinks": true,
-                        "source": true
-                      }
-                    }
-                  }
-                ]
+                }
               }
-            ],
-            "direction": "vertical"
+            ]
           },
           {
             "id": "83582ae35cf2df86",
             "type": "tabs",
-            "dimension": 28.591224018475753,
+            "dimension": 28.591224018475756,
             "children": [
               {
                 "id": "b1f8aca011f3f6ab",
@@ -203,10 +177,13 @@
   },
   "active": "b1f8aca011f3f6ab",
   "lastOpenFiles": [
-    "Technologies/Cloud Native/Git/Github/Github.md",
+    "Technologies/Cloud Native/Apache/Apache Web Server.md",
     "Technologies/Cloud Native/Git/Git.md",
-    "Technologies/Code/Python.md",
+    "Technologies/Cloud Native/Apache",
+    "Home.md",
     "Technologies/Linux/RedHat.md",
+    "Technologies/Cloud Native/Git/Github/Github.md",
+    "Technologies/Code/Python.md",
     "Technologies/Linux/Linux.md",
     "Technologies/Code/HTMLCSS/CSS.md",
     "Technologies/Code/HTMLCSS/HTML.md",
@@ -235,10 +212,7 @@
     "Technologies/Tools/VS Code.md",
     "Technologies/Microsoft Windows.md",
     "Technologies/AWS/EC2.md",
-    "Technologies/CyberSecurity/NIST.md",
     "Technologies/CyberSecurity",
-    "Qualifications/Certifications/AWS Cloud Practitioner.md",
-    "Technologies/IoT/SparkFun",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
     "Assets/SecurityPlus Logo Certified CE.jpg",

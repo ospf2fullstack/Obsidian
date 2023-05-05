@@ -6,7 +6,7 @@ Source Control Management so you can "version" control software repositories. Th
 ```bash
 yum install git # install git on CentOS
 git version # to verify the current version
-git init # initialize a repository
+git init someRepoName # initialize a repository
 
 # clone a remote branch (github repo)
 git clone https://github.com/username/repo/id...
@@ -15,11 +15,16 @@ git clone https://github.com/username/repo/id...
 git branch someBranchName
 
 # track files
+git status # verify which files are not currently tracked
 git add . # adds all changed files to the git push stage 
 git add readme.txt # add a file explicitly 
 
 # commit 
 git commit -m "some commit message"
+
+# push for merge
+git push 
+git pull 
 ```
 
 ## Repository Management
