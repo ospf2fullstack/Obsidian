@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c240b3a9e31a34ac",
+        "id": "e03db0fd77b3e140",
         "type": "tabs",
         "children": [
           {
-            "id": "3d68ab44876f151f",
+            "id": "6444b0325bb76ce2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
+                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": true
               }
             }
@@ -65,14 +64,6 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "097898148f02c6db",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
+                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md",
+                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Cloud Native/Apache/Apache Tomcat.md"
+                "file": "Building Information Management/BIM (Collection) Automation.md"
               }
             }
           }
@@ -148,62 +139,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "random-note:Open random note": false
+      "publish:Publish changes": false
     }
   },
-  "active": "3d68ab44876f151f",
+  "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
-    "Technologies/Cloud Native/Apache/Apache Web Server.md",
-    "Technologies/Cloud Native/Apache/Apache Tomcat.md",
+    "Technologies/Fundamentals/Linux.md",
+    "Technologies/Tools/VS Code.md",
+    "Technologies/Tools/Perforce.md",
+    "Technologies/Tools",
+    "Technologies/Networking/pfsense.md",
+    "Technologies/Networking/Networking.md",
+    "Technologies/Networking",
+    "Technologies/Microsoft Windows.md",
     "Technologies/Linux/RedHat.md",
     "Technologies/Linux/Linux.md",
-    "Technologies/Cloud Native/Git/Git.md",
-    "Technologies/Cloud Native/Apache",
-    "Home.md",
-    "Technologies/Cloud Native/Git/Github/Github.md",
-    "Technologies/Code/Python.md",
-    "Technologies/Code/HTMLCSS/CSS.md",
-    "Technologies/Code/HTMLCSS/HTML.md",
+    "Technologies/Linux",
+    "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
+    "Technologies/IoT/SparkFun",
+    "Technologies/IoT/IoT Types.md",
+    "Technologies/IoT",
+    "Technologies/CyberSecurity/NIST.md",
+    "Technologies/CyberSecurity",
     "Technologies/Code/JavaScript/NodeJS.md",
-    "Technologies/Code/HTMLCSS",
     "Technologies/Code/JavaScript/JavaScript.md",
+    "Technologies/Code/HTMLCSS/HTML.md",
+    "Technologies/Code/HTMLCSS/CSS.md",
+    "Technologies/Code/Python.md",
     "Technologies/Code/JavaScript",
     "Technologies/Code/Java.md",
-    "Building Information Management/Point Clouds.md",
+    "Technologies/Code/HTMLCSS",
     "Technologies/Code",
-    "Technologies/AWS/IoT Core.md",
-    "Technologies/Cloud Native/Containers/Docker.md",
-    "Technologies/Cloud Native/Git/Git Bash.md",
-    "Technologies/Cloud Native/Package Manager/Helm.md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Cloud Native/Infrastructure as Code",
-    "Technologies/Cloud Native/Package Manager",
+    "Technologies/Cloud Native/Git/Github/Github.md",
+    "Technologies/Cloud Native/Git/Github/Github Actions.md",
     "Technologies/Cloud Native/Pods/Rancher (k3s).md",
-    "Technologies/Networking/pfsense.md",
-    "Technologies/Cloud Native/Containers/Podman.md",
-    "Technologies/IoT/IoT Types.md",
-    "Technologies/Cloud Native/Git",
-    "Technologies/Cloud Native/Pods",
-    "Technologies/Cloud Native/Containers",
+    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
+    "Technologies/Cloud Native/Package Manager/Helm.md",
     "Technologies/Cloud Native/Infrastructure as Code/Terraform.md",
-    "Technologies/Tools/VS Code.md",
-    "Technologies/Microsoft Windows.md",
-    "Technologies/CyberSecurity",
+    "Technologies/Cloud Native/Infrastructure as Code/Ansible.md",
+    "Technologies/Cloud Native/Git/Gitlab.md",
+    "Technologies/Cloud Native/Git/Github",
+    "Technologies/Cloud Native/Git/Git.md",
+    "Assets/SecurityPlus Logo Certified CE.jpg",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
-    "Assets/SecurityPlus Logo Certified CE.jpg",
     "Assets/Pasted image 20230503194840.png",
-    "Assets/AMPAdminSec.png",
-    "Assets/AMPAdminII.png",
-    "Assets/AMPAdminI.png",
     "Assets/Pasted image 20230503194332.png",
     "Assets/Pasted image 20230503194310.png",
     "Assets/Pasted image 20230503194243.png",
+    "Assets/Pasted image 20230503194234.png",
+    "Assets/Pasted image 20230503194136.png",
+    "Assets/AMPAdminSec.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
