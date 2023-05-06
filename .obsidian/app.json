@@ -3,7 +3,8 @@
   "promptDelete": false,
   "attachmentFolderPath": "Assets",
   "userIgnoreFilters": [
-    "Assets/"
+    "Assets/",
+    "Not-Public/"
   ],
   "livePreview": false,
   "rightToLeft": false,
