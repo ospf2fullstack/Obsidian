@@ -157,5 +157,19 @@ kubectl get nodes
 
 Connect subordinate cluster nodes to master
 
+# Force Restart PODs 
+If you have a new image, or just want to pull the latest image again without updating the code, use the below commands to force Kubernetes to restart (deploy a new pod, when it's active, replace the old pod)
+```bash
+# Get Deployment name
+kubectl get deployments -n namespace
+
+# Paste the deployment name into the 'deployment-deploy-name' rollout command
+kubectl rollout restart deployment deployment-deploy-name -n namespace
+
+# monitor the process, should take about 90s
+kubectl get pod -o wide
+```
+
+
 
 #kubernetes #cloudnative 
