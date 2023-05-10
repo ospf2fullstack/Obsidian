@@ -15,7 +15,13 @@ But there's not a lot for as-built, unless you look into the on-going collection
 # What are some of the challenges? 
 Human interactions are necessary at each phase for traditional collection methods. 
 
-
+What type of data does a Building Information Model posses? 
+- Schematics
+- System Manuals
+- Issues/Tasks associated with an area/component
+- Measurements
+- System Meta Data (electrical values, nut types, etc..)
+- 
 Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
 

@@ -13,11 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Building Information Management/BIM (Collection) Automation.md",
+                "file": "Not-Public/Building Information Collection.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "747166774f605cad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "036b02dd792d0c50",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 352.5
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -94,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Building Information Management/BIM (Collection) Automation.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -156,9 +166,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "6444b0325bb76ce2",
+  "active": "036b02dd792d0c50",
   "lastOpenFiles": [
     "Not-Public/Building Information Collection.md",
+    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
+    "Technologies/Linux/Linux.md",
+    "Building Information Management/BIM (Collection) Automation.md",
     "npmjs.com.md",
     "Technologies/Tools/CyberDuck.md",
     "Technologies/SSH.md",
@@ -166,7 +179,6 @@
     "Technologies/Fundamentals/SQL.md",
     "Technologies/Fundamentals/Microsoft Windows.md",
     "Deployments/K12TechnologyTraining.com.md",
-    "Building Information Management/BIM (Collection) Automation.md",
     "Not-Public",
     "Technologies/Fundamentals/Linux.md",
     "Technologies/Tools/VS Code.md",
@@ -177,7 +189,6 @@
     "Technologies/Networking",
     "Technologies/Microsoft Windows.md",
     "Technologies/Linux/RedHat.md",
-    "Technologies/Linux/Linux.md",
     "Technologies/Linux",
     "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Technologies/IoT/SparkFun",
@@ -191,7 +202,6 @@
     "Technologies/Code/HTMLCSS/CSS.md",
     "Technologies/Code/Python.md",
     "Technologies/Code/JavaScript",
-    "Technologies/Code/Java.md",
     "Technologies/Code/HTMLCSS",
     "Technologies/Code",
     "Assets/SecurityPlus Logo Certified CE.jpg",
