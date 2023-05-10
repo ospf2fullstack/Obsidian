@@ -6,33 +6,50 @@
       {
         "id": "e03db0fd77b3e140",
         "type": "tabs",
+        "dimension": 66.00846262341325,
         "children": [
           {
-            "id": "6444b0325bb76ce2",
+            "id": "8b92b780854e891d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Building Information Management/BIM (Collection) Automation.md",
+                "file": "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
                 "mode": "source",
+                "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "8e98657416a795f6",
+            "id": "8ea20426f21baff9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Technologies/SSH.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "ae7cab313c1c4f4a",
+        "type": "tabs",
+        "dimension": 33.99153737658674,
+        "children": [
+          {
+            "id": "6444b0325bb76ce2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,13 +94,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "dbce95f559578a49",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Not-Public/Building Information Collection.md"
+                "file": "Technologies/Cloud Native/Pods/Kubernetes (k8s).md"
               }
             }
           }
@@ -153,26 +177,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "publish:Publish changes": false
+      "templates:Insert template": false
     }
   },
-  "active": "8e98657416a795f6",
+  "active": "8b92b780854e891d",
   "lastOpenFiles": [
-    "Building Information Management/BIM (Collection) Automation.md",
+    "Technologies/Networking/SSL & TLS.md",
+    "npmjs.com.md",
+    "Technologies/Code/JavaScript/NodeJS.md",
+    "Technologies/SSH.md",
+    "Technologies/Fundamentals/SQL.md",
+    "Technologies/Tools/CyberDuck.md",
+    "Technologies/Fundamentals/Personal Computers.md",
+    "Technologies/Networking/Networking.md",
+    "Technologies/Code/Python.md",
+    "Technologies/Cloud Native/Apache/Apache Tomcat.md",
     "Not-Public/Building Information Collection.md",
+    "Deployments/K12TechnologyTraining.com.md",
+    "Building Information Management/BIM (Collection) Automation.md",
     "Not-Public",
     "Technologies/Fundamentals/Linux.md",
     "Technologies/Tools/VS Code.md",
     "Technologies/Tools/Perforce.md",
     "Technologies/Tools",
     "Technologies/Networking/pfsense.md",
-    "Technologies/Networking/Networking.md",
     "Technologies/Networking",
-    "Technologies/Microsoft Windows.md",
+    "Technologies/Fundamentals/Microsoft Windows.md",
     "Technologies/Linux/RedHat.md",
     "Technologies/Linux/Linux.md",
     "Technologies/Linux",
@@ -182,22 +217,12 @@
     "Technologies/IoT",
     "Technologies/CyberSecurity/NIST.md",
     "Technologies/CyberSecurity",
-    "Technologies/Code/JavaScript/NodeJS.md",
     "Technologies/Code/JavaScript/JavaScript.md",
     "Technologies/Code/HTMLCSS/HTML.md",
     "Technologies/Code/HTMLCSS/CSS.md",
-    "Technologies/Code/Python.md",
     "Technologies/Code/JavaScript",
-    "Technologies/Code/Java.md",
     "Technologies/Code/HTMLCSS",
     "Technologies/Code",
-    "Technologies/Cloud Native/Git/Github/Github.md",
-    "Technologies/Cloud Native/Git/Github/Github Actions.md",
-    "Technologies/Cloud Native/Pods/Rancher (k3s).md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Cloud Native/Package Manager/Helm.md",
-    "Technologies/Cloud Native/Infrastructure as Code/Terraform.md",
-    "Technologies/Cloud Native/Infrastructure as Code/Ansible.md",
     "Assets/SecurityPlus Logo Certified CE.jpg",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
