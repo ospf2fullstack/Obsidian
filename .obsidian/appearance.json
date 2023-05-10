@@ -5,5 +5,5 @@
   "theme": "obsidian",
   "textFontFamily": "Georgia",
   "monospaceFontFamily": "Andale Mono",
-  "translucency": true
+  "translucency": false
 }

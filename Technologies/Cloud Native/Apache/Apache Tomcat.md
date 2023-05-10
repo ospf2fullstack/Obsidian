@@ -1,5 +1,5 @@
 # Tomcat
-Tomcat is an [[Apache Web Server]] for hosting Java based Web Applications 
+Tomcat is an [[Apache Web Server]] for hosting [[Java]] based Web Applications 
 
 ```bash
 # install java jdk 
@@ -15,3 +15,5 @@ tar xvf apache-tomcat-8.5.53.tar.gz
 ./apache-tomcat-8.5.53/bin/startup.sh
 
 ```
+
+

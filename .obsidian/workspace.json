@@ -19,22 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "8e98657416a795f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Not-Public/Building Information Collection.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Building Information Management/BIM (Collection) Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Not-Public/Building Information Collection.md"
+                "file": "Building Information Management/BIM (Collection) Automation.md"
               }
             }
           }
@@ -171,10 +156,17 @@
       "templates:Insert template": false
     }
   },
-  "active": "8e98657416a795f6",
+  "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
-    "Building Information Management/BIM (Collection) Automation.md",
     "Not-Public/Building Information Collection.md",
+    "npmjs.com.md",
+    "Technologies/Tools/CyberDuck.md",
+    "Technologies/SSH.md",
+    "Technologies/Networking/SSL & TLS.md",
+    "Technologies/Fundamentals/SQL.md",
+    "Technologies/Fundamentals/Microsoft Windows.md",
+    "Deployments/K12TechnologyTraining.com.md",
+    "Building Information Management/BIM (Collection) Automation.md",
     "Not-Public",
     "Technologies/Fundamentals/Linux.md",
     "Technologies/Tools/VS Code.md",
@@ -202,13 +194,6 @@
     "Technologies/Code/Java.md",
     "Technologies/Code/HTMLCSS",
     "Technologies/Code",
-    "Technologies/Cloud Native/Git/Github/Github.md",
-    "Technologies/Cloud Native/Git/Github/Github Actions.md",
-    "Technologies/Cloud Native/Pods/Rancher (k3s).md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Cloud Native/Package Manager/Helm.md",
-    "Technologies/Cloud Native/Infrastructure as Code/Terraform.md",
-    "Technologies/Cloud Native/Infrastructure as Code/Ansible.md",
     "Assets/SecurityPlus Logo Certified CE.jpg",
     "Assets/Pasted image 20230503195104.png",
     "Assets/Pasted image 20230503195009.png",
