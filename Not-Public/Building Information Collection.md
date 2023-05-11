@@ -1,5 +1,5 @@
 # Autonomous Building Information Collection
-# Part I - Framing
+# Part I - Planning
 ## What is BIM?
 An acronym for Building Information Modeling/Management. In brief, it's a digital model that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. Other industries are utilizing these BIM's to correctly anticipate the delivery of assemblies and other sub-systems. 
 
@@ -117,7 +117,7 @@ Laser Scanning with 360 photo captures, supplemented with high resolution photos
 
 --- 
 
-# Part II - Erecting 
+# Part II - Approvals 
 ## Workflows
 ## Raw documentation
 What can the client provide? Do they have a record of sub-systems, installation dates, and types of materials as-built? 
@@ -140,7 +140,7 @@ Can we get enough angles? When would NeRF kick in? What's "enough"?
 
 ---
 
-# Part III - Referencing
+# Part III - Framing
 ## Artificial Intelligence, Deep Learning, Machine Learning
 How do we build the data catalog? How do we get the information to CAD when they want it? How do we notify them of an identified object that wasn't previously identified?
 
@@ -150,7 +150,10 @@ How do we Frame, Erect, and Reference faster?
 How do we scale horizontally without extending time? 
 How do we handle live content streams? 
 
+
+
 ---
 
 # Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
+
