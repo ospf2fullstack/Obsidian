@@ -61,7 +61,20 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
   - ...
 - Fire Suppression
   - ...
-- 
+- Compliance
+  - ADA
+    - Signage
+      - Type (...)
+  - Fire Marshal 
+    - Signage 
+      - Type (...)
+  - Health
+    - Signage
+      - Type (...)
+- IT
+  - Type (Intercom, Wireless, Network, Surveillance, Door Access)
+
+
 
 # Goals
 - Automate Building Information Collection allowing the human to verify and assign. 
