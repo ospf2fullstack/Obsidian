@@ -1,5 +1,5 @@
 # Autonomous Building Information Collection
-
+# Part I - Framing
 ## What is BIM?
 An acronym for Building Information Modeling/Management. In brief, it's a digital model that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. Other industries are utilizing these BIM's to correctly anticipate the delivery of assemblies and other sub-systems. 
 
@@ -92,7 +92,7 @@ The time to collect and the Data itself can be completely wasted if there is not
 ### Best Method to Collect the Baseline Data
 Laser Scanning with 360 photo captures, supplemented with high resolution photos and 360 videos. *This method, however, must be challenged and the workflows proven.*
 
-# Challenges & Constraints
+## Challenges & Constraints
 - Obtaining a high quality and highly accurate mesh model with photogrammetry
   - And if you do get it, was it done with government approved software and hardware? 
   - Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
@@ -102,7 +102,7 @@ Laser Scanning with 360 photo captures, supplemented with high resolution photos
 - Lack of a data catalog for CAD/Modeling to easily find all of the necessary data they need when modeling. All photos, scans, videos should be searchable by meta data and image detection (ai). Something along the lines of Google image search where you can upload a reference image and it'll populate where that source is from and high confidence matches. 
 - Collection times require extensive planning, expensive hardware/software, and long processing times with manual experienced human interaction. 
 
-# Goals
+## Goals
 - Automate Building Information Collection allowing the human to verify and assign. 
   - This may mean automating the scan to mesh process so the computer can calculate and process by area/room rather than attempting to generate the entire building at once with no form of path reference. 
 - Visualize BIM data quicker with fewer human hours involved
@@ -116,6 +116,41 @@ Laser Scanning with 360 photo captures, supplemented with high resolution photos
 
 
 --- 
+
+# Part II - Erecting 
+## Workflows
+## Raw documentation
+What can the client provide? Do they have a record of sub-systems, installation dates, and types of materials as-built? 
+
+## Systems as a Service
+What systems are they currently utilizing to manage materials, installations, and any sub-system activity? Is there an API? Does it provide granular use of metadata and tracking? 
+
+## Physical Collection
+What collection methods are approved? Will these collection methods work to maximize exposure but reduce exposure time? 
+### Laser Scanning
+Distance requirements, length of time to capture
+### Photogrammetry
+
+#### 360 Photogrammetry
+Distance requirements, how far is too far? 
+#### Drone Photogrammetry
+Distance requirements, how close can we get? Is there enough clearance? Do we need a certified drone operator? 
+#### Still Image Photogrammetry
+Can we get enough angles? When would NeRF kick in? What's "enough"?
+
+---
+
+# Part III - Referencing
+## Artificial Intelligence, Deep Learning, Machine Learning
+How do we build the data catalog? How do we get the information to CAD when they want it? How do we notify them of an identified object that wasn't previously identified?
+
+# Part IV - Do it again
+How do we verify year over year? 
+How do we Frame, Erect, and Reference faster? 
+How do we scale horizontally without extending time? 
+How do we handle live content streams? 
+
+---
 
 # Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
