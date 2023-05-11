@@ -89,6 +89,7 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 
 # Goals
 - Automate Building Information Collection allowing the human to verify and assign. 
+  - This may mean automating the scan to mesh process so the computer can calculate and process by area/room rather than attempting to generate the entire building at once with no form of path reference. 
 - Visualize BIM data quicker with fewer human hours involved
 - Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
 - Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
