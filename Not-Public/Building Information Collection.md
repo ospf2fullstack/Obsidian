@@ -76,11 +76,8 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 
 
 
-# Goals
-- Automate Building Information Collection allowing the human to verify and assign. 
-- Visualize BIM data quicker with fewer human hours involved
-- Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
-- Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
+
+
 
 # Challenges & Constraints
 - Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
@@ -90,8 +87,15 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 - Lack of a data catalog for CAD/Modeling to easily find all of the necessary data they need when modeling. All photos, scans, videos should be searchable by meta data and image detection (ai). Something along the lines of Google image search where you can upload a reference image and it'll populate where that source is from and high confidence matches. 
 - Collection times require extensive planning, expensive hardware/software, and long processing times with manual experienced human interaction. 
 
+# Goals
+- Automate Building Information Collection allowing the human to verify and assign. 
+- Visualize BIM data quicker with fewer human hours involved
+- Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
+- Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
+
+
 --- 
 
-Resources: 
+# Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
 
