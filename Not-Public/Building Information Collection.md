@@ -79,6 +79,19 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 
 
 
+## Purpose of Data
+The time to collect and the Data itself can be completely wasted if there is not a use case. The scope of this project is to identify data types that have a direct impact in the initial ingestion cycle of a new site to develop the ground plans of a digital twin. 
+- Walls
+- Ceilings
+- HVAC
+- Plumbing
+- Electrical
+- Data (IT systems (door access, wireless, infrastructure))
+- Flooring
+- Thresholds (door openings, windows, garages)
+- Storage areas
+
+
 # Challenges & Constraints
 - Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
 - NeRF technology recently released with no true workflow practiced. Generative AI uses photos to "fill the gaps" for photogrammetry - accuracy is the winner with this one. 
