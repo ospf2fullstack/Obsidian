@@ -13,25 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Not-Public/Building Information Collection.md",
+                "file": "Technologies/Cloud Native/Containers/Docker.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "747166774f605cad",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "036b02dd792d0c50",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -81,7 +67,7 @@
             }
           },
           {
-            "id": "1e58d56f0f71da79",
+            "id": "89c6695d55258b8c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5e9a38ccddeff682",
@@ -108,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md"
+              }
             }
           }
         ],
@@ -166,19 +157,17 @@
       "templates:Insert template": false
     }
   },
-  "active": "036b02dd792d0c50",
+  "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
-    "Not-Public/Building Information Collection.md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Linux/Linux.md",
     "Building Information Management/BIM (Collection) Automation.md",
-    "npmjs.com.md",
+    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
     "Technologies/Tools/CyberDuck.md",
     "Technologies/SSH.md",
     "Technologies/Networking/SSL & TLS.md",
     "Technologies/Fundamentals/SQL.md",
     "Technologies/Fundamentals/Microsoft Windows.md",
     "Deployments/K12TechnologyTraining.com.md",
+    "Not-Public/Building Information Collection.md",
     "Not-Public",
     "Technologies/Fundamentals/Linux.md",
     "Technologies/Tools/VS Code.md",
@@ -189,6 +178,7 @@
     "Technologies/Networking",
     "Technologies/Microsoft Windows.md",
     "Technologies/Linux/RedHat.md",
+    "Technologies/Linux/Linux.md",
     "Technologies/Linux",
     "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Technologies/IoT/SparkFun",
@@ -202,6 +192,7 @@
     "Technologies/Code/HTMLCSS/CSS.md",
     "Technologies/Code/Python.md",
     "Technologies/Code/JavaScript",
+    "Technologies/Code/Java.md",
     "Technologies/Code/HTMLCSS",
     "Technologies/Code",
     "Assets/SecurityPlus Logo Certified CE.jpg",
