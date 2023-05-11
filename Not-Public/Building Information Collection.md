@@ -78,20 +78,24 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 ## Purpose of Data
 The time to collect and the Data itself can be completely wasted if there is not a use case. The scope of this paper is to identify data types that have a direct impact in the initial ingestion cycle of a new site to develop the ground plans of a digital twin. With that information, we can attempt to create automated pipelines to take the ingested *data sources* and convert it into *data types* autonomously. Ultimately lowering the barrier to entry for a digital twin and digital thread product while maintaining standards for accuracies. 
 
-### Core Data Collected during initial ingestion
+### Core Data Needed for a Digital Twin
 - Walls
 - Ceilings
 - HVAC
 - Plumbing
 - Electrical
-- Data (IT systems (door access, wireless, infrastructure))
+- Data Systems (IT systems (door access, wireless, infrastructure), IoT devices)
 - Flooring
 - Thresholds (door openings, windows, garages)
 - Storage areas
 
+### Best Method to Collect the Baseline Data
+Laser Scanning with 360 photo captures, supplemented with high resolution photos and 360 videos. *This method, however, must be challenged and the workflows proven.*
 
 # Challenges & Constraints
-- Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
+- Obtaining a high quality and highly accurate mesh model with photogrammetry
+  - And if you do get it, was it done with government approved software and hardware? 
+  - Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
 - NeRF technology recently released with no true workflow practiced. Generative AI uses photos to "fill the gaps" for photogrammetry - accuracy is the winner with this one. 
 - AI for object segmentation has been around, but no good workflow developed. Object segmentation is useful for providing modelers with a singular object out of the gate to work with rather than attempting to segment billions of points for each little object they may need. 
 - AI for text identification and correlation has no workflow, but the technology is prominent. This will be helpful for capturing asset tags, qr codes, hand-written text, etc...
