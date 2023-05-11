@@ -1,8 +1,8 @@
-# About Linux
+# Linux
 ## Leading OS's
 Preferred OS in market as of 2023: 
 Ubuntu 
-RHEL
+RHEL [[RedHat]]
 CentOS 
 
 ## Shell Types

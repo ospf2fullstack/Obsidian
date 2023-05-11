@@ -1,4 +1,4 @@
-The quickest way to go from noob to hero with 3D printing is by using UltiMaker Cura. It's the simpliest form splicing with amazing tools built in to support nearly ANY 3D printer on the market. 
+The quickest way to go from noob to hero with 3D printing is by using UltiMaker Cura. It's the simplest form splicing with amazing tools built in to support nearly ANY 3D printer on the market. 
 
 https://ultimaker.com/software/ultimaker-cura 
 
