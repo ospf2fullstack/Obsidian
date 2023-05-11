@@ -1,3 +1,4 @@
+# Docker
 ```docker
 # verify docker is installed
 docker version
@@ -44,6 +45,41 @@ docker run -d nginx # runs detached in the background, not attached to terminal
 docker attach container-id # re-attach terminal to running container
 ```
 
+## Log into docker container 
+```bash
+# to automatically log into the container after running an image, add -it flag
+docker run -it nginx bash # runs bash terminal within the container with nginx image
+```
+
+---
+# Docker Run
+```bash
+# basic command to run an image
+docker run redis # or any image name
+
+# specify an image tag, so it doesn't pull latest by default
+docker run redis:1.1 # 1.1 being the tag
+
+# interactive mode
+docker run -i redis
+
+# attach terminal in interactive mode
+docker run -it redis
+
+# port map
+docker run -p 80:5000 redis # routes 80 public to 5000 internal
+
+# volume map
+docker run -v /opt/datadir:/var/lib/mysql mysql
+
+# details of a container
+docker inspect container-name
+
+# container logs
+docker logs container-name
+```
+
+---
 
 # Custom Image
 A docker file `Dockerfile` is just a set of instructions to run a “process” as a container image.
