@@ -154,4 +154,3 @@ How do we handle live content streams?
 
 # Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
-
