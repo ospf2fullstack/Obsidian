@@ -29,21 +29,13 @@ kubectl config get-contexts # get the current context contents from local machin
 kubectl get pods --all-namespaces # list all active pods and their status across all namespaces
 ```
 
-## K3S Remote Cluster
+## Set Contexts from Remote Cluster
+```bash
+# configure your environment variables, so if you're using AWS to host your EKS cluster, run 'aws configure'
+aws configure [aws access key, aws secret key, region, format]
 
-Add [[Rancher (k3s)]] cluster group to remote PC
-
-```yaml
-delete everything in ~/.kube/config
-replace it with ~/etc/rancher/k3s/k3s.yaml
-/$ kubectl get pods --all-namespaces
-```
-
-If you get weird errors from copying your context files from SSH, use SCP to copy the remote context to a local destination.
-
-```json
-scp innerarity@10.255.255.254:/etc/rancher/k3s/k3s.yaml . 
-# copies the remote rancher yaml to '.' local. 
+# pull your context down
+aws eks update-kubeconfig --region <region> --name <cluster-name>
 ```
 
 # Basics

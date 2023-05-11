@@ -159,6 +159,23 @@
   },
   "active": "6444b0325bb76ce2",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
+=======
+    "Technologies/Cloud Native/Pods/Rancher (k3s).md",
+    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
+    "Technologies/Networking/SSL & TLS.md",
+    "npmjs.com.md",
+    "Technologies/Code/JavaScript/NodeJS.md",
+    "Technologies/SSH.md",
+    "Technologies/Fundamentals/SQL.md",
+    "Technologies/Tools/CyberDuck.md",
+    "Technologies/Fundamentals/Personal Computers.md",
+    "Technologies/Networking/Networking.md",
+    "Technologies/Code/Python.md",
+    "Technologies/Cloud Native/Apache/Apache Tomcat.md",
+    "Not-Public/Building Information Collection.md",
+    "Deployments/K12TechnologyTraining.com.md",
+>>>>>>> Stashed changes
     "Building Information Management/BIM (Collection) Automation.md",
     "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
     "Technologies/Tools/CyberDuck.md",
@@ -188,9 +205,12 @@
     "Technologies/CyberSecurity",
     "Technologies/Code/JavaScript/NodeJS.md",
     "Technologies/Code/JavaScript/JavaScript.md",
+<<<<<<< Updated upstream
     "Technologies/Code/HTMLCSS/HTML.md",
     "Technologies/Code/HTMLCSS/CSS.md",
     "Technologies/Code/Python.md",
+=======
+>>>>>>> Stashed changes
     "Technologies/Code/JavaScript",
     "Technologies/Code/Java.md",
     "Technologies/Code/HTMLCSS",

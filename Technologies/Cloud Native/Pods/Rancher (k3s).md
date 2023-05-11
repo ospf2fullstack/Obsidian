@@ -92,6 +92,24 @@ curl -sfL <https://get.k3s.io> | K3S_TOKEN="[token]" K3S_URL="https://[k3smaster
 ```
 
 
+## K3S Remote Cluster
+
+Add [[Rancher (k3s)]] cluster group to remote PC
+
+```yaml
+delete everything in ~/.kube/config
+replace it with ~/etc/rancher/k3s/k3s.yaml
+/$ kubectl get pods --all-namespaces
+```
+
+If you get weird errors from copying your context files from SSH, use SCP to copy the remote context to a local destination.
+
+```json
+scp innerarity@10.255.255.254:/etc/rancher/k3s/k3s.yaml . 
+# copies the remote rancher yaml to '.' local. 
+```
+
+
 [[Linux]], [[Cloud]]
 
 #rancher #cloudnative 
