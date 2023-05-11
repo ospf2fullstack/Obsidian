@@ -30,7 +30,12 @@ Human interactions are necessary at each phase for traditional collection method
 - Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
 - Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
 
-
+# Contraints
+- Photo to Mesh quality for collection to model is not up to par without human interaction
+- NeRF technology recently released with no true workflow practiced
+- AI for object segmentation has been around, but no good workflow developed.
+- AI for text identification and correlation has no workflow, but the technology is prominent. 
+- Lack of a data catalog for CAD/Modeling to easily find all of the necessary data they need when modeling. 
 
 --- 
 
