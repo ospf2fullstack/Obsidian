@@ -1,16 +1,12 @@
 # Autonomous Building Information Collection
 
 ## What is BIM?
-An acronym for Building Information Modeling/Management. In brief, it's the digital twins that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. 
+An acronym for Building Information Modeling/Management. In brief, it's a digital model that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. Other industries are utilizing these BIM's to correctly anticipate the delivery of assemblies and other sub-systems. 
 
 ## What are the current methods used in BIM collection? 
-It's currently industry method to utilize tools like Laser scanners, [[photogrammetry]], manual documentation, electrical panel schematics, and any other form of diagrams previously developed by CAD departments or architects to plan the assembly of massive building orchestrations. 
-1. 3D Laser Scanning (3D CAD)
-2. 2D Laser Scanning (2D CAD)
-3. Schematics for pluming, Wiring, HVAC, etc.. 
-4. Architectural designs 
+It's currently industry method to utilize tools like Laser scanners, [[photogrammetry]], manual documentation, electrical panel schematics, and any other form of diagram previously developed by Architects, construction teams and manufacturers for these orchestrations. 
 
-## Types of Data Sources
+### Data Sources
 - Schematics
 - System Manuals
 - Issues/Tasks associated with an area/component
@@ -22,7 +18,7 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 - Hand drawn layouts
 - Software as a Service platforms (NetBox for rack management and documentation)
 
-## Types of Data
+### Data Types
 - Wiring
   - Type (Electrical, Data (copper, fiber, air), Conduit)
   - Gauges
@@ -80,7 +76,9 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 
 
 ## Purpose of Data
-The time to collect and the Data itself can be completely wasted if there is not a use case. The scope of this project is to identify data types that have a direct impact in the initial ingestion cycle of a new site to develop the ground plans of a digital twin. 
+The time to collect and the Data itself can be completely wasted if there is not a use case. The scope of this paper is to identify data types that have a direct impact in the initial ingestion cycle of a new site to develop the ground plans of a digital twin. With that information, we can attempt to create automated pipelines to take the ingested *data sources* and convert it into *data types* autonomously. Ultimately lowering the barrier to entry for a digital twin and digital thread product while maintaining standards for accuracies. 
+
+### Core Data Collected during initial ingestion
 - Walls
 - Ceilings
 - HVAC
