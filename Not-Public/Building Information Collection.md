@@ -31,11 +31,12 @@ Human interactions are necessary at each phase for traditional collection method
 - Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
 
 # Contraints
-- Photo to Mesh quality for collection to model is not up to par without human interaction
-- NeRF technology recently released with no true workflow practiced
-- AI for object segmentation has been around, but no good workflow developed.
-- AI for text identification and correlation has no workflow, but the technology is prominent. 
-- Lack of a data catalog for CAD/Modeling to easily find all of the necessary data they need when modeling. 
+- Photo to Mesh quality for collection to model is not up to par without human interaction. There are some great platforms, but workflow is not documented; along with there being a lack of automated workflow. (upload thousands of photos and let the computer take over)
+- NeRF technology recently released with no true workflow practiced. Generative AI uses photos to "fill the gaps" for photogrammetry - accuracy is the winner with this one. 
+- AI for object segmentation has been around, but no good workflow developed. Object segmentation is useful for providing modelers with a singular object out of the gate to work with rather than attempting to segment billions of points for each little object they may need. 
+- AI for text identification and correlation has no workflow, but the technology is prominent. This will be helpful for capturing asset tags, qr codes, hand-written text, etc...
+- Lack of a data catalog for CAD/Modeling to easily find all of the necessary data they need when modeling. All photos, scans, videos should be searchable by meta data and image detection (ai). Something along the lines of Google image search where you can upload a reference image and it'll populate where that source is from and high confidence matches. 
+- Collection times require extensive planning, expensive hardware/software, and long processing times with manual experienced human interaction. 
 
 --- 
 
