@@ -1,21 +1,21 @@
 {
   "main": {
-    "id": "51d0a890c16e2dc3",
+    "id": "c0d84b4f414bbfd7",
     "type": "split",
     "children": [
       {
-        "id": "e03db0fd77b3e140",
+        "id": "b714fdd1b05d68a1",
         "type": "tabs",
         "children": [
           {
-            "id": "6444b0325bb76ce2",
+            "id": "a8707bbbe356e60b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
+                "file": "Technologies/Technologies.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": true
               }
             }
@@ -26,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "73e92cd964737258",
+    "id": "8769d6fd96dba207",
     "type": "split",
     "children": [
       {
-        "id": "9fb5d62ce806a682",
+        "id": "5d1b8314df3e61c5",
         "type": "tabs",
         "children": [
           {
-            "id": "1260e38683d607d3",
+            "id": "62c62a806ce418e0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,82 +44,48 @@
             }
           },
           {
-            "id": "5d87be5ccad9df05",
+            "id": "1dd8c26a3eebebc8",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "cf60b6b991d17503",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "89c6695d55258b8c",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "5e9a38ccddeff682",
+    "id": "7bd829d100c42373",
     "type": "split",
     "children": [
       {
-        "id": "5cfcf424be28f7ad",
+        "id": "0f8297923f257eca",
         "type": "tabs",
         "children": [
           {
-            "id": "95f6f5447ed5aefd",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b8324c5b6ef52e56",
+            "id": "4188c755082ae6b0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
+                "file": "Technologies/Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "261d119364f017d5",
+            "id": "76eca03ba0504322",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,17 +96,16 @@
             }
           },
           {
-            "id": "aa3fbf9d6d6562d8",
+            "id": "7afd13e976bb889d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md"
+                "file": "Technologies/Technologies.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,83 +114,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "random-note:Open random note": false,
-      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "6444b0325bb76ce2",
+  "active": "a8707bbbe356e60b",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-=======
-    "Technologies/Cloud Native/Pods/Rancher (k3s).md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Networking/SSL & TLS.md",
-    "npmjs.com.md",
-    "Technologies/Code/JavaScript/NodeJS.md",
-    "Technologies/SSH.md",
-    "Technologies/Fundamentals/SQL.md",
-    "Technologies/Tools/CyberDuck.md",
-    "Technologies/Fundamentals/Personal Computers.md",
-    "Technologies/Networking/Networking.md",
-    "Technologies/Code/Python.md",
-    "Technologies/Cloud Native/Apache/Apache Tomcat.md",
-    "Not-Public/Building Information Collection.md",
-    "Deployments/K12TechnologyTraining.com.md",
->>>>>>> Stashed changes
-    "Building Information Management/BIM (Collection) Automation.md",
-    "Technologies/Cloud Native/Pods/Kubernetes (k8s).md",
-    "Technologies/Tools/CyberDuck.md",
-    "Technologies/SSH.md",
-    "Technologies/Networking/SSL & TLS.md",
-    "Technologies/Fundamentals/SQL.md",
-    "Technologies/Fundamentals/Microsoft Windows.md",
-    "Deployments/K12TechnologyTraining.com.md",
-    "Not-Public/Building Information Collection.md",
-    "Not-Public",
-    "Technologies/Fundamentals/Linux.md",
-    "Technologies/Tools/VS Code.md",
-    "Technologies/Tools/Perforce.md",
-    "Technologies/Tools",
-    "Technologies/Networking/pfsense.md",
-    "Technologies/Networking/Networking.md",
-    "Technologies/Networking",
-    "Technologies/Microsoft Windows.md",
-    "Technologies/Linux/RedHat.md",
-    "Technologies/Linux/Linux.md",
-    "Technologies/Linux",
-    "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
-    "Technologies/IoT/SparkFun",
-    "Technologies/IoT/IoT Types.md",
-    "Technologies/IoT",
-    "Technologies/CyberSecurity/NIST.md",
-    "Technologies/CyberSecurity",
-    "Technologies/Code/JavaScript/NodeJS.md",
-    "Technologies/Code/JavaScript/JavaScript.md",
-<<<<<<< Updated upstream
-    "Technologies/Code/HTMLCSS/HTML.md",
-    "Technologies/Code/HTMLCSS/CSS.md",
-    "Technologies/Code/Python.md",
-=======
->>>>>>> Stashed changes
-    "Technologies/Code/JavaScript",
-    "Technologies/Code/Java.md",
-    "Technologies/Code/HTMLCSS",
-    "Technologies/Code",
-    "Assets/SecurityPlus Logo Certified CE.jpg",
-    "Assets/Pasted image 20230503195104.png",
-    "Assets/Pasted image 20230503195009.png",
-    "Assets/Pasted image 20230503194840.png",
-    "Assets/Pasted image 20230503194332.png",
-    "Assets/Pasted image 20230503194310.png",
-    "Assets/Pasted image 20230503194243.png",
-    "Assets/Pasted image 20230503194234.png",
-    "Assets/Pasted image 20230503194136.png",
-    "Assets/AMPAdminSec.png",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "Technologies/Technologies.md",
+    "Technologies/Tools/Tools.md",
+    "Technologies/IoT/IoT.md",
+    "Technologies/Fundamentals/Fundamentals.md",
+    "Technologies/CyberSecurity/CyberSecurity.md",
+    "Technologies/Code/Code.md",
+    "Technologies/Cloud Native/Cloud Native.md",
+    "Technologies/AWS/AWS.md",
+    "Technologies/AI/AI.md",
+    "Technologies/3D Printing/3D Printing.md",
+    "Home.md",
+    "Building Information Management/BIM.md",
+    "Qualifications/Qualifications.md",
+    "Labs/Labs.md",
+    "Deployments/Deployments.md"
   ]
 }

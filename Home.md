@@ -1,9 +1,10 @@
 # Hello👋
 
-- 🔭 I’m currently working on Digital Twins; exploring [[Photogrammetry]], [[Point Clouds]], and [[Visualize 3D Models]] to optimize Building Information Management in Advanced Manufacturing. 
-- 🌱 I’m currently learning [[Terraform]], [[Kubernetes (k8s)]] and [[Git]].
-- ⚡ Fun fact: I have an obsession with learning and tinkering. 
-- I also enjoy [[3D Printing]] in my free time. 
+- 🔭 I’m currently working on Digital Twins; exploring [[BIM]] optimization in advanced manufacturer facilities.
+- 🌱 I’m currently expanding my list of [[Technologies]] under my skill belt.
+- ⚡ Fun fact: I have an obsession with learning and tinkering, checkout my [[Qualifications]]. 
+- I also enjoy sharing and documenting my  [[Deployments]] and [[Labs]] for the off chance that they help others. 
+
 ---
 ## Things I Break
 

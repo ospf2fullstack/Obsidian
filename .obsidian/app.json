@@ -8,5 +8,6 @@
   ],
   "livePreview": false,
   "rightToLeft": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "showInlineTitle": false
 }
