@@ -92,6 +92,11 @@ It's currently industry method to utilize tools like Laser scanners, [[photogram
 - Visualize BIM data quicker with fewer human hours involved
 - Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
 - Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
+- Integrate with information management platforms 
+  - A good example of this would be with NetBox. If a survey crew captures a site with B12 patch port in a room, NetBox api should tell our system that B12 feeds back to the main distribution frame in building B on rack #1, U3-U5 with switch Meraki 225-48P last managed by Technician #1. 
+    - It should also be able to highlight a path going back to that location in a digital twin, following the visible conduit and "generating" a path through the non-visible conduit. 
+    - This provided information should also calculate the anticipated length of the runs, if not calculated in the switch or cable management platform (netbox). 
+- Auto calculate identified objects by groups. # of exit signs, # of visible fire extinguishers, # of fire strobes, # of suppressions etc... for building compliance and planning. These items should be visible, therefore, automatically collected using traditional photo/video. 
 
 
 --- 
