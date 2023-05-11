@@ -2,7 +2,7 @@
 An acronym for Building Information Modeling/Management. In brief, it's the digital twins that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. 
 
 ## Current Methods
-It's currently industry method to utilize tools like Laser scanners, photogrammetry, manual documentation, electrical panel schematics, and any other form of diagram previously developed by CAD departments or architects to plan the assembly of massive building orchestrations. 
+It's currently industry method to utilize tools like Laser scanners, [[photogrammetry]], manual documentation, electrical panel schematics, and any other form of diagram previously developed by CAD departments or architects to plan the assembly of massive building orchestrations. 
 
 
 # What are the current methods used in BIM collection? 
@@ -15,13 +15,25 @@ But there's not a lot for as-built, unless you look into the on-going collection
 # What are some of the challenges? 
 Human interactions are necessary at each phase for traditional collection methods. 
 
-What type of data does a Building Information Model posses? 
+# What type of data does a Building Information Model posses? 
 - Schematics
 - System Manuals
 - Issues/Tasks associated with an area/component
 - Measurements
 - System Meta Data (electrical values, nut types, etc..)
-- 
+- Blueprints
+- CAD (2d/3D)
+
+# Goals
+- Automate Building Information Collection allowing the human to verify and assign. 
+- Visualize BIM data quicker with fewer human hours involved
+- Lower the cost of entry for the initial ingestion cycle when onboarding a new client site. 
+- Optimized for low touch collection, reducing the needs for clearances, training, tethering, and so much more that goes into being authorized to enter a space. 
+
+
+
+--- 
+
 Resources: 
 https://constructible.trimble.com/construction-industry/what-is-bim-building-information-modeling 
 
