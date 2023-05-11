@@ -1,18 +1,16 @@
-# What is BIM?
+# Autonomous Building Information Collection
+
+## What is BIM?
 An acronym for Building Information Modeling/Management. In brief, it's the digital twins that multiple tenants utilize to collaborate on the successful delivery of a building, or construction project. 
 
-## Current Methods
-It's currently industry method to utilize tools like Laser scanners, [[photogrammetry]], manual documentation, electrical panel schematics, and any other form of diagram previously developed by CAD departments or architects to plan the assembly of massive building orchestrations. 
-
-
-# What are the current methods used in BIM collection? 
+## What are the current methods used in BIM collection? 
+It's currently industry method to utilize tools like Laser scanners, [[photogrammetry]], manual documentation, electrical panel schematics, and any other form of diagrams previously developed by CAD departments or architects to plan the assembly of massive building orchestrations. 
 1. 3D Laser Scanning (3D CAD)
 2. 2D Laser Scanning (2D CAD)
 3. Schematics for pluming, Wiring, HVAC, etc.. 
 4. Architectural designs 
-But there's not a lot for as-built, unless you look into the on-going collection process that utilizes 3D laser scanning and other tools like photogrammetry which is often used in bridge inspections and building inspections.
 
-# What type of data does a Building Information Model posses? 
+## Types of Data Sources
 - Schematics
 - System Manuals
 - Issues/Tasks associated with an area/component
@@ -23,6 +21,47 @@ But there's not a lot for as-built, unless you look into the on-going collection
 - Excel sheets of asset metadata
 - Hand drawn layouts
 - Software as a Service platforms (NetBox for rack management and documentation)
+
+## Types of Data
+- Wiring
+  - Type (Electrical, Data (copper, fiber, air), Conduit)
+  - Gauges
+  - Age
+  - Path
+  - Circuit Types
+  - Material
+  - Sheathing 
+  - Watts/Volts (current + max)
+  - Length
+  - Girth (outer)
+  - life cycle (install date, end of life, warranty)
+- Plumbing
+  - Type (potable water, milk, chemical)
+  - PSI (current + max)
+  - Material (copper, cast iron, plex, pvc)
+  - Length
+  - Girth (inner, outer)
+  - life cycle (install date, end of life, warranty)
+- Flooring
+  - Type (concrete, carpet, tile, wood)
+  - Finish
+  - Barriers
+  - Fillers
+  - Capacity
+  - Scratch resistant ratings
+  - Primary use
+  - life cycle (install date, end of life, warranty)
+- Walls
+  - ...
+- Lights
+  - ...
+- HVAC
+  - ...
+- Windows
+  - ...
+- Fire Suppression
+  - ...
+- 
 
 # Goals
 - Automate Building Information Collection allowing the human to verify and assign. 
