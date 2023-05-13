@@ -13,4 +13,6 @@ Here's a sample of PolyCam that I used to create a photogrammetric model of Taj 
 Another one of my exterior light. If you're just needing a quick object, this method works wonders in bind. 
 <iframe src="https://poly.cam/capture/A56E7250-4E15-423B-BE8D-8C08021C15F0" title="polycam capture viewer" style="height:60vmin;width:100%;max-height:720px;max-width:1280px;min-height:280px;min-width:280px" frameborder="0"></iframe>
 
+Then, you can combine this with modern tools like [[Drone]] and capture much greater quality at scale! 
+
 #photogrammetry 
