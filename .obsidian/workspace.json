@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b714fdd1b05d68a1",
+        "id": "1a34896d5ffb5cad",
         "type": "tabs",
         "children": [
           {
-            "id": "a8707bbbe356e60b",
+            "id": "08581bbdaae59955",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -121,8 +113,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a8707bbbe356e60b",
+  "active": "08581bbdaae59955",
   "lastOpenFiles": [
+    "Technologies/Cloud Native/Containers/Docker.md",
     "Technologies/Tools/Tools.md",
     "Not-Public/About Me.md",
     "Technologies/Obsidian/Obsidian.md",
