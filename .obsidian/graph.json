@@ -5,18 +5,47 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Technologies",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Deployments",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Building Information Management\"",
+      "color": {
+        "a": 1,
+        "rgb": 958378
+      }
+    },
+    {
+      "query": "path:Qualifications",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.29947916666667,
-  "lineSizeMultiplier": 1.60572916666667,
-  "collapse-forces": true,
-  "centerStrength": 0.651041666666667,
-  "repelStrength": 8.95833333333333,
-  "linkStrength": 0.989583333333333,
-  "linkDistance": 79,
-  "scale": 0.8565061613148298,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.39208984375,
+  "lineSizeMultiplier": 1.75107828776042,
+  "collapse-forces": false,
+  "centerStrength": 0.210408528645833,
+  "repelStrength": 5.18880208333333,
+  "linkStrength": 0.239013671875,
+  "linkDistance": 92,
+  "scale": 0.7088503702466399,
   "close": true
 }
