@@ -11,8 +11,13 @@
             "id": "08581bbdaae59955",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -57,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -73,6 +79,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technologies/Cloud Native/Containers/Docker.md"
+              }
             }
           }
         ]
