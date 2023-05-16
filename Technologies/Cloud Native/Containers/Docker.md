@@ -197,8 +197,74 @@ docker inspect containerName
 ]
 ```
 ---
-
 # compose
+Creates a configuration file to combine the various services to run the image. 
+
+## Base Command for Docker Compose
+'docker-compose up'
+
+## Sample Docker Compose File
+```yaml
+services:
+	web:
+		image: "userprofile/simple-webapp"
+	database:
+		image: "mongodb"
+	messaging:
+		image: "redis:alpine"
+```
+
+```yml
+# version 1
+redis:
+	image: redis
+db:
+	image: postgres:9.4
+vote: 
+	image: voting-app
+	ports:
+		- 5000:80
+	links:
+		- redis
+---
+
+docker-compose up
+```
+
+```bash
+# version 2 docker compose
+version: 2
+services:
+	redis:
+		image: redis
+	...
+	vode:
+		image: voting-app
+		ports:
+			- 5000:80
+		depends_on: # depends on was added in v2
+			- redis
+```
+
+The old method: 
+```bash
+# docker cmd detached -- application name and options
+docker run -d --name=redis redis
+docker run -d --name=db postgres
+docker run -d --name=vote -p 5000-80 voting-app
+docker run -d --name=result -p 5001:80 result-app
+docker run -d --name=worker worker
+```
+
+The problem, you're not defining replica counts, and other various details. 
+## docker run --links 
+*deprecated*
+```bash
+docker run -d --name=vote -p 5000:80 --link redis:redis voting-app
+```
+
+
+
 
 
 
