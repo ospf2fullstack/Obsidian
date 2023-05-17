@@ -11,8 +11,13 @@
             "id": "1106ef49f865516d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Deployments/GenericStaticSite.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deployments/GenericStaticSite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deployments/GenericStaticSite.md"
+              }
             }
           },
           {
@@ -103,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deployments/GenericStaticSite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +140,12 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
+    "Deployments/LaMaestraLoca.com.md",
+    "Deployments/K12TechnologyTraining.com.md",
+    "Deployments/GenericStaticSite.md",
+    "Deployments/GaryInnerarity.com.md",
+    "Deployments/Brain.GaryInnerarity.com.md",
+    "Deployments/AWS Cloud Resume Challenge.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
@@ -150,12 +165,6 @@
     "Technologies/Perforce.md",
     "Technologies/NodeJS.md",
     "Technologies/NIST.md",
-    "Technologies/Microsoft Windows.md",
-    "Technologies/Linux.md",
-    "Technologies/Kubernetes (k8s).md",
-    "Technologies/JavaScript.md",
-    "Technologies/Java.md",
-    "Technologies/IoT Types.md",
-    "Technologies/IoT.md"
+    "Technologies/Microsoft Windows.md"
   ]
 }
