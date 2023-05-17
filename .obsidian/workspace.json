@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deployments/GenericStaticSite.md",
+                "file": "Technologies/Obsidian/Obsidian Syntax.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a19d4a409da4f999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8958c318dcca037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Code/HTMLCSS/HTML.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployments/GenericStaticSite.md",
+                "file": "Technologies/Obsidian/Obsidian Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployments/GenericStaticSite.md"
+                "file": "Technologies/Obsidian/Obsidian Syntax.md"
               }
             }
           }
@@ -123,13 +142,18 @@
   },
   "active": "62c62a806ce418e0",
   "lastOpenFiles": [
+    "Technologies/Obsidian/Obsidian.md",
+    "Technologies/Obsidian/Obsidian Syntax.md",
+    "Technologies/Obsidian/Obsidian Publish.md",
+    "Technologies/Obsidian/Obsidian Plugins.md",
+    "Templates/SampleNote.md",
+    "Deployments/GenericStaticSite.md",
+    "Technologies/Code/HTMLCSS/HTML.md",
     "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Deployments/Deployments.md",
-    "Deployments/GenericStaticSite.md",
     "Technologies/Cloud Native/Containers/Docker.md",
     "Technologies/Tools/Tools.md",
     "Not-Public/About Me.md",
-    "Technologies/Obsidian/Obsidian.md",
     "Technologies/Networking/Networking.md",
     "Technologies/Linux/Linux.md",
     "Technologies/IoT/IoT.md",
@@ -143,7 +167,6 @@
     "Technologies/Technologies.md",
     "Home.md",
     "Building Information Management/BIM.md",
-    "Qualifications/Qualifications.md",
-    "Labs/Labs.md"
+    "Qualifications/Qualifications.md"
   ]
 }
