@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "dbb159ff0f482737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7785326b90b35cc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployments/Deployments.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,6 +142,7 @@
   },
   "active": "187de8f636a055bd",
   "lastOpenFiles": [
+    "Deployments/Deployments.md",
     "Deployments/GenericStaticSite.md",
     "Technologies/Cloud Native/Containers/Docker.md",
     "Technologies/Tools/Tools.md",
@@ -142,7 +162,6 @@
     "Home.md",
     "Building Information Management/BIM.md",
     "Qualifications/Qualifications.md",
-    "Labs/Labs.md",
-    "Deployments/Deployments.md"
+    "Labs/Labs.md"
   ]
 }

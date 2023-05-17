@@ -3,3 +3,4 @@
 [[GaryInnerarity.com]]
 [[K12TechnologyTraining.com]]
 [[LaMaestraLoca.com]]
+[[GenericStaticSite]]
