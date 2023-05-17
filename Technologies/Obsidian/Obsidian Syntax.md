@@ -2,10 +2,10 @@
 
 ## Embed Section Notes
 Add the '!' in front of the reference note link
-![[Obsidian]]
+![[Obsidian Publish]]
 
 ## Reference another note
-[[Obsidian]]
+[[Obsidian Publish]]
 
 ## Embed various document types
 Make sure you have the '!' before the reference link and then end the name with the document type

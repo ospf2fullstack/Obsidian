@@ -11,13 +11,8 @@
             "id": "1106ef49f865516d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/CSS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Technologies/CSS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -111,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,31 +131,31 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
-    "Technologies/HTML.md",
-    "Home.md",
-    "Building Information Management/BIM.md",
-    "Labs/Labs.md",
-    "Qualifications/Qualifications.md",
-    "Deployments/Deployments.md",
-    "Technologies/Technologies.md",
-    "Technologies/CloudFlare.md",
-    "Technologies/Apache Tomcat.md",
-    "Technologies/Apache Web Server.md",
-    "Technologies/Cora.ai.md",
-    "Technologies/Ansible.md",
-    "Technologies/SSL & TLS.md",
-    "Technologies/pfsense.md",
-    "Technologies/Networking/Networking.md",
-    "Technologies/Cloud Native/Cloud Native.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
-    "Technologies/Obsidian/Obsidian.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
-    "Templates/SampleNote.md",
-    "Deployments/GenericStaticSite.md",
-    "Technologies/ESP32 MicroMod.md",
-    "Technologies/Docker.md",
+    "Technologies/Obsidian/Obsidian.md",
+    "Technologies/VS Code.md",
     "Technologies/Tools.md",
-    "Not-Public/About Me.md"
+    "Technologies/Terraform.md",
+    "Technologies/SSL & TLS.md",
+    "Technologies/SSH.md",
+    "Technologies/SQL.md",
+    "Technologies/RedHat.md",
+    "Technologies/Rancher (k3s).md",
+    "Technologies/Python.md",
+    "Technologies/Podman.md",
+    "Technologies/pfsense.md",
+    "Technologies/Personal Computers.md",
+    "Technologies/Perforce.md",
+    "Technologies/NodeJS.md",
+    "Technologies/NIST.md",
+    "Technologies/Microsoft Windows.md",
+    "Technologies/Linux.md",
+    "Technologies/Kubernetes (k8s).md",
+    "Technologies/JavaScript.md",
+    "Technologies/Java.md",
+    "Technologies/IoT Types.md",
+    "Technologies/IoT.md"
   ]
 }

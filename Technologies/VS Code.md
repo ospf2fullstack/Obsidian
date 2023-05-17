@@ -17,4 +17,4 @@ shfit + ctrl + /
 
 
 
-#texteditor #ide #cli 
+#texteditor #ide #cli #code 

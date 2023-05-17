@@ -1,5 +1,0 @@
-
-
-[[Linux]],  [[Cloud]]
-
-#ansible
