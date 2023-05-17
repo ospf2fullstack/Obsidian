@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a34896d5ffb5cad",
+        "id": "26c2c0f1ac1e608b",
         "type": "tabs",
         "children": [
           {
-            "id": "08581bbdaae59955",
+            "id": "187de8f636a055bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
+                "file": "Deployments/GenericStaticSite.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md",
+                "file": "Deployments/GenericStaticSite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Cloud Native/Containers/Docker.md"
+                "file": "Deployments/GenericStaticSite.md"
               }
             }
           }
@@ -122,8 +121,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "08581bbdaae59955",
+  "active": "187de8f636a055bd",
   "lastOpenFiles": [
+    "Deployments/GenericStaticSite.md",
     "Technologies/Cloud Native/Containers/Docker.md",
     "Technologies/Tools/Tools.md",
     "Not-Public/About Me.md",
