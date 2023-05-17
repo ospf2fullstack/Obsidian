@@ -1,7 +1,7 @@
 # Hello👋
 
 - 🔭 I’m currently working on Digital Twins; exploring [[BIM]] optimization in advanced manufacturer facilities.
-- 🌱 I’m currently expanding my list of [[Technologies]] under my skill belt.
+- 🌱 I’m currently expanding my list of Technologies under my skill belt.
 - ⚡ Fun fact: I have an obsession with learning and tinkering, checkout my [[Qualifications]]. 
 - I also enjoy sharing and documenting my  [[Deployments]] and [[Labs]] for the off chance that they help others. 
 

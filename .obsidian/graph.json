@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:Technologies",
@@ -36,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -3,
+  "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 2.39208984375,
   "lineSizeMultiplier": 1.75107828776042,
   "collapse-forces": false,
-  "centerStrength": 0.210408528645833,
-  "repelStrength": 5.18880208333333,
-  "linkStrength": 0.239013671875,
-  "linkDistance": 92,
-  "scale": 0.6580686064843227,
+  "centerStrength": 0.136197916666667,
+  "repelStrength": 7.22395833333333,
+  "linkStrength": 0.752864583333333,
+  "linkDistance": 337,
+  "scale": 0.2827576628669815,
   "close": true
 }

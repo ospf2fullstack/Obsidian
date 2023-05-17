@@ -4,7 +4,8 @@
   "attachmentFolderPath": "Assets",
   "userIgnoreFilters": [
     "Assets/",
-    "Not-Public/"
+    "Not-Public/",
+    "Templates/"
   ],
   "livePreview": false,
   "rightToLeft": false,

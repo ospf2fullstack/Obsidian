@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "26c2c0f1ac1e608b",
+        "id": "638b4c65fe646505",
         "type": "tabs",
         "children": [
           {
-            "id": "187de8f636a055bd",
+            "id": "1106ef49f865516d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md",
+                "file": "Home.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a19d4a409da4f999",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d8958c318dcca037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Code/HTMLCSS/HTML.md",
-                "mode": "source",
-                "backlinks": false,
+                "backlinks": true,
                 "source": true
               }
             }
@@ -97,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +101,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md"
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "c82c476b09512e20",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -142,31 +140,31 @@
   },
   "active": "62c62a806ce418e0",
   "lastOpenFiles": [
-    "Technologies/Obsidian/Obsidian.md",
+    "Technologies/Technologies.md",
+    "Technologies/CloudFlare.md",
+    "Technologies/Apache Tomcat.md",
+    "Technologies/Apache Web Server.md",
+    "Technologies/Cora.ai.md",
+    "Technologies/Ansible.md",
+    "Technologies/SSL & TLS.md",
+    "Technologies/pfsense.md",
+    "Technologies/Networking/Networking.md",
+    "Technologies/Cloud Native/Cloud Native.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
+    "Technologies/Obsidian/Obsidian.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
     "Templates/SampleNote.md",
     "Deployments/GenericStaticSite.md",
-    "Technologies/Code/HTMLCSS/HTML.md",
-    "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
+    "Technologies/HTML.md",
+    "Technologies/ESP32 MicroMod.md",
     "Deployments/Deployments.md",
-    "Technologies/Cloud Native/Containers/Docker.md",
-    "Technologies/Tools/Tools.md",
+    "Technologies/Docker.md",
+    "Technologies/Tools.md",
     "Not-Public/About Me.md",
-    "Technologies/Networking/Networking.md",
-    "Technologies/Linux/Linux.md",
-    "Technologies/IoT/IoT.md",
-    "Technologies/Fundamentals/Fundamentals.md",
-    "Technologies/CyberSecurity/CyberSecurity.md",
-    "Technologies/Code/Code.md",
-    "Technologies/Cloud Native/Cloud Native.md",
-    "Technologies/AWS/AWS.md",
-    "Technologies/AI/AI.md",
-    "Technologies/3D Printing/3D Printing.md",
-    "Technologies/Technologies.md",
-    "Home.md",
-    "Building Information Management/BIM.md",
-    "Qualifications/Qualifications.md"
+    "Technologies/Linux.md",
+    "Technologies/IoT.md",
+    "Technologies/Fundamentals.md",
+    "Technologies/CyberSecurity.md"
   ]
 }
