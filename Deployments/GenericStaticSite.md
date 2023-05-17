@@ -71,7 +71,7 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 
 ### SSL Key
---> How to obtain and inject into pipeline repo
+--> How to obtain and inject into pipeline repo, use secret repo for key...
 
 ### nginx deployment yaml
 ```yaml
