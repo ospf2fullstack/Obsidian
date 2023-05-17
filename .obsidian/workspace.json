@@ -21,25 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "dbb159ff0f482737",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7785326b90b35cc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployments/Deployments.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300.5
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -140,8 +121,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "187de8f636a055bd",
+  "active": "62c62a806ce418e0",
   "lastOpenFiles": [
+    "Technologies/IoT/SparkFun/ESP32 MicroMod.md",
     "Deployments/Deployments.md",
     "Deployments/GenericStaticSite.md",
     "Technologies/Cloud Native/Containers/Docker.md",

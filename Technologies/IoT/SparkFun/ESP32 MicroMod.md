@@ -408,7 +408,7 @@ The following is code used to connect the MicroMod with the Environmental sensor
     
     ```cpp
     #include <pgmspace.h>
-    #define THINGNAME "NCAM_EnvSensor"
+    #define THINGNAME "EnvSensor"
     const char ssid[]="   "; // <--------------- UPDATE ----------------------
     const char password[] ="   "; // <--------------- UPDATE ----------------------
     const char AWS_IOT_ENDPOINT[]="   "; // <--------------- UPDATE ----------------------  
