@@ -13,7 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deployments/GenericStaticSite.md",
+                "file": "Technologies/Docker.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "67ccbf43229618c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ead067986bc84b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Obsidian/Obsidian Syntax.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deployments/GenericStaticSite.md",
+                "file": "Technologies/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deployments/GenericStaticSite.md"
+                "file": "Technologies/Docker.md"
               }
             }
           },
@@ -111,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deployments/GenericStaticSite.md",
+                "file": "Technologies/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,13 +159,15 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
+    "Technologies/Obsidian/Obsidian Syntax.md",
+    "Technologies/Docker.md",
+    "Technologies/Kubernetes (k8s).md",
+    "Deployments/GenericStaticSite.md",
     "Deployments/LaMaestraLoca.com.md",
     "Deployments/K12TechnologyTraining.com.md",
-    "Deployments/GenericStaticSite.md",
     "Deployments/GaryInnerarity.com.md",
     "Deployments/Brain.GaryInnerarity.com.md",
     "Deployments/AWS Cloud Resume Challenge.md",
-    "Technologies/Obsidian/Obsidian Syntax.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
     "Technologies/Obsidian/Obsidian.md",
@@ -163,8 +184,6 @@
     "Technologies/pfsense.md",
     "Technologies/Personal Computers.md",
     "Technologies/Perforce.md",
-    "Technologies/NodeJS.md",
-    "Technologies/NIST.md",
-    "Technologies/Microsoft Windows.md"
+    "Technologies/NodeJS.md"
   ]
 }

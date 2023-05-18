@@ -263,8 +263,11 @@ The problem, you're not defining replica counts, and other various details.
 docker run -d --name=vote -p 5000:80 --link redis:redis voting-app
 ```
 
+## docker file system
+>![docker data files]
+>/var/lib/docker
 
-
+Docker has a layered architecture. Each line of instructions in the dockerfile add compounding layers. 
 
 
 

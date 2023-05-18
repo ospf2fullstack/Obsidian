@@ -9,3 +9,10 @@ Add the '!' in front of the reference note link
 
 ## Embed various document types
 Make sure you have the '!' before the reference link and then end the name with the document type
+
+## Callouts
+
+>![info]
+>Add some text
+>And some more text
+>
