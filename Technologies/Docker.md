@@ -269,6 +269,13 @@ docker run -d --name=vote -p 5000:80 --link redis:redis voting-app
 
 Docker has a layered architecture. Each line of instructions in the dockerfile add compounding layers. 
 
+Create the volume
+'docker volume create data_volume'
+
+Mount the volume
+'docker run -v data_volume:/var/lib/mysql mysql'
+### Modify a file in a docker container 
+'docker exec -u 0 -it containerID /bin/bash'
 
 
 #containers #cloudnative 

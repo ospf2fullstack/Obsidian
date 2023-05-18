@@ -21,25 +21,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "67ccbf43229618c9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5ead067986bc84b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -159,6 +140,7 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
+    "Technologies/HTML.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
     "Technologies/Docker.md",
     "Technologies/Kubernetes (k8s).md",
@@ -183,7 +165,6 @@
     "Technologies/Podman.md",
     "Technologies/pfsense.md",
     "Technologies/Personal Computers.md",
-    "Technologies/Perforce.md",
-    "Technologies/NodeJS.md"
+    "Technologies/Perforce.md"
   ]
 }
