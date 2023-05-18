@@ -273,9 +273,41 @@ Create the volume
 'docker volume create data_volume'
 
 Mount the volume
-'docker run -v data_volume:/var/lib/mysql mysql'
+'docker run --mount type=bind, source=/data/mysql, target=/var/lib/mysql mysql'
+
+List volumes
+'ls /var/lib/docker/volumes'
+
 ### Modify a file in a docker container 
 'docker exec -u 0 -it containerID /bin/bash'
 
+## Docker Networking
+List Networks
+'docker network ls'
+and inspect the network config on a container with:
+'docker inspect containerID'
+1. Bridge - default 'docker run ubuntu'
+2. None - 'docker run ubuntu --network=none'
+3. Host - 'docker run ubuntu --network=host'
+
+```bash
+# run an alpine image with no network
+docker run --name webapp-alpine --network=none alpine
+# view container network settings/ip
+docker inspect container_name
+
+# create network
+docker network create --drive bridge --subnet x.x.x.x/24 --gateway x.x.x.1 wp-network-name
+```
+
+Containers resolve to container name with DNS
+Default ip of DNS: '127.0.0.11'
+
+---
+
+# Container orchestration
+Docker Swarm
+Kubernetes
+Mesos
 
 #containers #cloudnative 
