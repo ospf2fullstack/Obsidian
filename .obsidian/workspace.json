@@ -8,24 +8,65 @@
         "type": "split",
         "children": [
           {
-            "id": "638b4c65fe646505",
-            "type": "tabs",
+            "id": "e1f209a4fd5c3ad8",
+            "type": "split",
             "dimension": 74.18478260869566,
             "children": [
               {
-                "id": "1106ef49f865516d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Technologies/Kubernetes (k8s).md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
+                "id": "638b4c65fe646505",
+                "type": "tabs",
+                "dimension": 67.3249551166966,
+                "children": [
+                  {
+                    "id": "420f651d75f1afc0",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Technologies/Kubernetes (k8s).md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": true
+                      }
+                    }
+                  },
+                  {
+                    "id": "1106ef49f865516d",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Technologies/YAML.md",
+                        "mode": "source",
+                        "backlinks": true,
+                        "source": true
+                      }
+                    },
+                    "group": "121d953a35077b27"
                   }
-                }
+                ],
+                "currentTab": 1
+              },
+              {
+                "id": "de4e4ad70c58aab0",
+                "type": "tabs",
+                "dimension": 32.675044883303414,
+                "children": [
+                  {
+                    "id": "05c6681d4117ebf0",
+                    "type": "leaf",
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "Technologies/YAML.md"
+                      }
+                    },
+                    "group": "121d953a35077b27"
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "vertical"
           },
           {
             "id": "f3c9b629100b7a9d",
@@ -81,13 +122,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -103,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Technologies/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md"
+                "file": "Technologies/YAML.md"
               }
             }
           },
@@ -136,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Technologies/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +205,9 @@
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
     "Technologies/Kubernetes (k8s).md",
+    "Technologies/YAML.md",
+    "Technologies/XML.md",
+    "Technologies/JSON.md",
     "Technologies/gitignore.md",
     "Technologies/Docker.md",
     "Technologies/HTML.md",
@@ -187,9 +229,6 @@
     "Technologies/SQL.md",
     "Technologies/RedHat.md",
     "Technologies/Rancher (k3s).md",
-    "Technologies/Python.md",
-    "Technologies/Podman.md",
-    "Technologies/pfsense.md",
-    "Technologies/Personal Computers.md"
+    "Technologies/Python.md"
   ]
 }

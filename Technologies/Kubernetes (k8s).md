@@ -1,6 +1,6 @@
 # Kubernetes (k8s)
 The most known Orchestration Technologies: 
-![[Docker Swarm]], ![[Kubernetes (k8s)]], and [[MESOS]]
+[[Docker Swarm]], [[Kubernetes (k8s)]], and [[MESOS]]
 
 ## Base Architecture 
 Master Node - Kubernetes 
@@ -23,7 +23,7 @@ Worker Nodes - Minion nodes host the containers
 
 ---
 
-## kubectl
+## kubectl basics
 tool used to manage applications on kubernetes cluster
 ```bash
 # run is used to run a container on the k8s cluster
@@ -37,9 +37,28 @@ kubectl get nodes
 kubectl get pods 
 ```
 
+## Pods
+>[!best practice]
+>Have a 1:1 pod to container ratio. 
 
+### basic deployment
+```bash
+kubectl run nginx --image nginx
+> pod/nginx created
 
+kubectl get pods
+> NAME  READY  STATUS  RESTARTS  AGE 
 
+kubectl describe pod nginx
+> Name:
+> Namespace:
+> ...
+
+kubectl get pods -o wide 
+> # same as 'get pods', but with IP added
+
+```
+deployments can be built with YAML Syntax, see: ![[YAML#YAML sample syntax]]. 
 
 
 
@@ -49,7 +68,7 @@ kubectl get pods
 
 ---
 
-## Definitions:
+# Definitions:
 
 Pod - One or more containers. Best practice is one container per pod bc kube can mark the entire pod unhealthy.
 
