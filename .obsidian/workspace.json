@@ -11,8 +11,13 @@
             "id": "1106ef49f865516d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/gitignore.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technologies/gitignore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technologies/gitignore.md"
+              }
             }
           },
           {
@@ -103,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technologies/gitignore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +140,7 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
+    "Technologies/gitignore.md",
     "Technologies/Docker.md",
     "Technologies/HTML.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
@@ -155,7 +165,6 @@
     "Technologies/Python.md",
     "Technologies/Podman.md",
     "Technologies/pfsense.md",
-    "Technologies/Personal Computers.md",
-    "Technologies/Perforce.md"
+    "Technologies/Personal Computers.md"
   ]
 }
