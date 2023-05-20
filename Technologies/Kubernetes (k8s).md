@@ -46,7 +46,6 @@ kubectl get pods
 ## Pods
 >[!best practice]
 >Have a 1:1 pod to container ratio. 
-
 ### basic deployment
 ```bash
 kubectl run nginx --image nginx
@@ -64,10 +63,12 @@ kubectl get pods -o wide
 > # same as 'get pods', but with IP added
 
 ```
+
 deployments can be built with YAML Syntax, see: ![[YAML#YAML sample syntax]]. 
 
 Yaml files are used as inputs for orchestrating a Kubernetes pod deployment. 
 
+kubectl create
 ### required fields for deployment.yml
 >[!pod-deployment.yml]
 ```yml, pod-deployment.yml
@@ -86,26 +87,98 @@ spec:
       image: nginx
 ```
 
-'kubectl apply -f pod-deployment.yml' to deploy the pod deployment. 
+Deploy the yml file to make your pod: 
+```yml
+kubectl create -f pod-deployment.yml
+kubectl run -f pod-deployment.yml # new deployment
+kubectl apply -f pod-deployment.yml # updates to deployment file 
+```
 
-
+### Basic Troubleshooting
+```bash
+kubectl describe pods # all pods
+kubectl describe pod my-app # single pod 
+kubectl logs my-app # recent logs for my-app
+```
 
 ---
 
 # Definitions:
+>[!key definitions]
+>*Pod* - One or more containers. Best practice is one container per pod bc kube can mark the entire pod unhealthy.
+>*Replica Set* - (sets of pods) specify the number of pods available.
+>*Replication Controller* - being deprecated with replica set
 
-Pod - One or more containers. Best practice is one container per pod bc kube can mark the entire pod unhealthy.
+## Pod
+![[Kubernetes (k8s)#required fields for deployment.yml]]
 
-Replica Set - specify the number of pods available.
+## Replication Controller (being deprecated)
+```yml
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myapp-rc # name of pod after deployed
 
-Deployments - Replicas wrapped into deployments. (yaml file)
+  labels:
+    app: myapp
+    tier: front-end
+    type: production
+    classification: non-cui
+spec:
+  template: # specify the pod template from the definition.yml
+    metadata: # This is from the definition.yml file
+      name: myapp-pod
+      labels:
+        app: myapp
+        tier: front-end
+        type: production
+        classification: non-cui
+	spec:
+	  containers:
+	  - name: nginx-controller
+	    image: nginx
+	replicas: 3 # sibling of spec
+	selector: # specify which pods fall under it <-- the main difference between replica controller and replica set
+```
+
+deploy
+```bash
+kubectl create -f rc-definition.yml
+```
+
+check status
+```bash
+kubectl get replicationcontroller
+> NAME DESIRED CURRENT READY AGE
+```
 
 ---
 
-# Kubectl Config Options
-
-## Set Alias Commands
-
+## Replica Set 
+```yml
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+    tier
+spec:
+  template:
+    metadata: # in the form of a dictionary... (child objects)
+      name: myapp-pod 
+    labels: # labels should be at the same level as 'name:'
+      app: myapp # you can add any key:value pair you want under labels.
+      tier: front-end
+      type: production
+    spec:
+      containers: # list/array
+        - name: nginx-container # '-' indicates first item in the list
+          image: nginx
+replicas: 3
+```
+# Set:
+## Alias
 ```powershell
 # set syntax/command alias in terminal (powershell)
 Set-Alias k kubectl
@@ -114,14 +187,7 @@ Set-Alias k kubectl
 alias k="kubectl"
 ```
 
-## List Contexts
-
-```bash
-kubectl config get-contexts # get the current context contents from local machine (aka., configuration)
-kubectl get pods --all-namespaces # list all active pods and their status across all namespaces
-```
-
-## Set Contexts from Remote Cluster
+## Context
 ```bash
 # configure your environment variables, so if you're using AWS to host your EKS cluster, run 'aws configure'
 aws configure [aws access key, aws secret key, region, format]
@@ -130,118 +196,69 @@ aws configure [aws access key, aws secret key, region, format]
 aws eks update-kubeconfig --region <region> --name <cluster-name>
 ```
 
-# Basics
-
-## Deployment
-
-<aside> 📌 DON’T DELTE YAML FILES BEFORE DELETING IT WITH KUBECTL!!
-
-</aside>
-
-1.  Create your YAML file for your deployment
-    
-    ```yaml
-    # sample webapp
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: hello-app-deployment
-      labels:
-        app: hello-app
-    spec:
-      replicas: 1
-      selector:
-        matchLabels:
-          app: hello-app
-      template:
-        metadata:
-          labels:
-            app: hello-app
-        spec:
-          nodeSelector:
-            type: backend
-          containers:
-            - name: hello-app
-              image: hello-app:v.01
-              ports:
-                - containerPort: 8080
-    ```
-    
-2.  Kick off the build
-    
-    ```yaml
-    kubectl create -f app.yaml
-    ```
-    
-3.  Verify Pod creation status
-    
-    ```yaml
-    kubectl get pods
-    or 
-    kubectl get pods --all-namespaces
-    ```
-    
-4.  Clean up
-    
-    ```yaml
-    kubectl delte -f app.yaml
-    ```
-    
+# List:
+## Context
+```bash
+kubectl config get-contexts # get the current context contents from local machine (aka., configuration)
+kubectl get pods --all-namespaces # list all active pods and their status across all namespaces
+```
+## Pods
+```bash
+kubectl get pods
+kubectl get pod my-app
+kubectl get pod my-app -n namespace
+```
+## Logs
+```bash
+kubectl logs my-app
+kubectl logs my-app -n namespace
+```
 
 ---
 
-# Sort
+# kubectl controls:
+>[!tip]
+>Operate 2 Master Nodes for HA/Redundancy
+>[Best Practices](https://tansanrao.com/kubernetes-ha-cluster-with-kubeadm/)
+## Cluster Info
 
-Best Practices
-
-Run 2 Master nodes for redundancy
-
-1 Application per Pod
-
-use service (permanent IP) for internal services that communicate with static IP
-
-Gather cluster information
-
-```jsx
+```bash
 kubectl cluster-info
 ```
 
-Create Pod
-
-```markdown
+## Create Pod
+```bash
 kubectl create -f <file>.yaml
 # -f flag signals "file" 
+# or # 
+kubectl run -f pod-deployment.yml # new deployment
+kubectl apply -f pod-deployment.yml # updates to deployment file 
 ```
 
-Update changes from file
-
-```markdown
+## Update Pod
+```bash
 kubectl apply -f <file>.yaml
 ```
 
-Delete Pod
-
-```markdown
-kubectl delete pod <name> 
+## Delete Pod
+```bash
+kubectl delete pod <name> -n namespace
 ```
 
-Check Replicasets
-
+## Check ReplicaSets
 ```markdown
-kubectl get replicaset
+kubectl get replicaset -n namespace
 kubectl delete replicaset <name> 
 ```
 
-Check nodes
-
+## Check nodes
 ```bash
 # check node status of all nodes. 
 kubectl get nodes
 ```
 
-Connect subordinate cluster nodes to master
-
-# Force Restart PODs 
+# Force Rolling Restart/Update
+## Pods (pulls new image)
 If you have a new image, or just want to pull the latest image again without updating the code, use the below commands to force Kubernetes to restart (deploy a new pod, when it's active, replace the old pod)
 ```bash
 # Get Deployment name
@@ -254,6 +271,15 @@ kubectl rollout restart deployment deployment-deploy-name -n namespace
 kubectl get pod -o wide
 ```
 
+---
+
+# Troubleshooting 
+```bash
+kubectl logs pod-name # pulls latest logs from pod
+kubectl describe pod-name # pull deploy details of a specified pod
+kubectl describe service # pull details of a particular service
+kubectl get pods -o wide # get all pods 
+```
 
 
 #kubernetes #cloudnative 

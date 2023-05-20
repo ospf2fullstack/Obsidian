@@ -4,86 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "beb9d67fca9afdf4",
+        "id": "e1f209a4fd5c3ad8",
         "type": "split",
         "children": [
           {
-            "id": "e1f209a4fd5c3ad8",
-            "type": "split",
-            "dimension": 74.18478260869566,
-            "children": [
-              {
-                "id": "638b4c65fe646505",
-                "type": "tabs",
-                "dimension": 67.3249551166966,
-                "children": [
-                  {
-                    "id": "420f651d75f1afc0",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/Obsidian/Obsidian Syntax.md",
-                        "mode": "source",
-                        "backlinks": true,
-                        "source": true
-                      }
-                    }
-                  },
-                  {
-                    "id": "1106ef49f865516d",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Technologies/YAML.md",
-                        "mode": "source",
-                        "backlinks": true,
-                        "source": true
-                      }
-                    },
-                    "group": "121d953a35077b27"
-                  }
-                ]
-              },
-              {
-                "id": "de4e4ad70c58aab0",
-                "type": "tabs",
-                "dimension": 32.675044883303414,
-                "children": [
-                  {
-                    "id": "05c6681d4117ebf0",
-                    "type": "leaf",
-                    "state": {
-                      "type": "outline",
-                      "state": {
-                        "file": "Technologies/YAML.md"
-                      }
-                    },
-                    "group": "121d953a35077b27"
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "f3c9b629100b7a9d",
+            "id": "638b4c65fe646505",
             "type": "tabs",
-            "dimension": 25.815217391304344,
+            "dimension": 76.260162601626,
             "children": [
               {
-                "id": "4de55dc067f3c9a3",
+                "id": "420f651d75f1afc0",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
-                }
+                  "type": "markdown",
+                  "state": {
+                    "file": "Technologies/Kubernetes (k8s).md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                },
+                "group": "e871d2e9836145c5"
+              }
+            ]
+          },
+          {
+            "id": "9bbc7f212d92e28f",
+            "type": "tabs",
+            "dimension": 23.739837398373982,
+            "children": [
+              {
+                "id": "75607a6a3b98ee7f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Technologies/Kubernetes (k8s).md"
+                  }
+                },
+                "group": "e871d2e9836145c5"
               }
             ]
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -125,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -141,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md",
+                "file": "Technologies/Kubernetes (k8s).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md"
+                "file": "Technologies/Kubernetes (k8s).md"
               }
             }
           },
@@ -174,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Obsidian/Obsidian Syntax.md",
+                "file": "Technologies/Kubernetes (k8s).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,13 +169,14 @@
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
     "Technologies/Kubernetes (k8s).md",
+    "Assets/innerarity.png",
+    "Technologies/Obsidian/Obsidian Syntax.md",
     "Technologies/YAML.md",
     "Technologies/XML.md",
     "Technologies/JSON.md",
     "Technologies/gitignore.md",
     "Technologies/Docker.md",
     "Technologies/HTML.md",
-    "Technologies/Obsidian/Obsidian Syntax.md",
     "Deployments/GenericStaticSite.md",
     "Deployments/LaMaestraLoca.com.md",
     "Deployments/K12TechnologyTraining.com.md",
@@ -227,7 +193,6 @@
     "Technologies/SSH.md",
     "Technologies/SQL.md",
     "Technologies/RedHat.md",
-    "Technologies/Rancher (k3s).md",
-    "Technologies/Python.md"
+    "Technologies/Rancher (k3s).md"
   ]
 }
