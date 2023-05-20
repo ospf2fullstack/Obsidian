@@ -1,4 +1,18 @@
 
+# don't sync this with git
+
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/backlink.json
+# .obsidian/community-plugins.json
 .obsidian/graph.json
-.obsidian
+.obsidian/hotkeys.json
+.obsidian/page-preview.json
+# .obsidian/publish.json
+# .obsidian/templates.json
+# .obsidian/manifest.json
+# .obsidian/theme.css
+# .obsidian/workspace.json
+
+
 
