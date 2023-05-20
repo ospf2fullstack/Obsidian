@@ -1,4 +1,53 @@
-# Getting Started
+# Kubernetes (k8s)
+The most known Orchestration Technologies: 
+![[Docker Swarm]], ![[Kubernetes (k8s)]], and [[MESOS]]
+
+## Base Architecture 
+Master Node - Kubernetes 
+- API Server
+- etcd
+- controller 
+- scheduler
+
+Worker Nodes - Minion nodes host the containers
+- container runtime (rkt and cri-o are alternatives)
+- kubelet agent
+
+## Core Services
+- API Server - Front End to interact with k8s cluster
+- etcd - Key-value store to store all data to manage the cluster
+- kubelet - agent that runs on each cluster node (ensures containers are running as expected)
+- container runtime - used to run containers (docker)
+- controller - orchestration brain, meant to respond to node activity (failure)
+- scheduler - distributing work across worker nodes
+
+---
+
+## kubectl
+tool used to manage applications on kubernetes cluster
+```bash
+# run is used to run a container on the k8s cluster
+kubectl run hello-minikube
+
+# cluster-info is used to gather cluster information from k8s
+kubectl cluster-info
+
+# get is used to get the nodes or pods from a cluster
+kubectl get nodes
+kubectl get pods 
+```
+
+
+
+
+
+
+
+
+
+
+
+---
 
 ## Definitions:
 

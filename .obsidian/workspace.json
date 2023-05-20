@@ -4,23 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "638b4c65fe646505",
-        "type": "tabs",
+        "id": "beb9d67fca9afdf4",
+        "type": "split",
         "children": [
           {
-            "id": "1106ef49f865516d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/gitignore.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
+            "id": "638b4c65fe646505",
+            "type": "tabs",
+            "dimension": 74.18478260869566,
+            "children": [
+              {
+                "id": "1106ef49f865516d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Technologies/Kubernetes (k8s).md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "f3c9b629100b7a9d",
+            "type": "tabs",
+            "dimension": 25.815217391304344,
+            "children": [
+              {
+                "id": "4de55dc067f3c9a3",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -58,11 +81,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "7bd829d100c42373",
@@ -78,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/gitignore.md",
+                "file": "Technologies/Kubernetes (k8s).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/gitignore.md"
+                "file": "Technologies/Kubernetes (k8s).md"
               }
             }
           },
@@ -111,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/gitignore.md",
+                "file": "Technologies/Kubernetes (k8s).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,11 +165,11 @@
   },
   "active": "1106ef49f865516d",
   "lastOpenFiles": [
+    "Technologies/Kubernetes (k8s).md",
     "Technologies/gitignore.md",
     "Technologies/Docker.md",
     "Technologies/HTML.md",
     "Technologies/Obsidian/Obsidian Syntax.md",
-    "Technologies/Kubernetes (k8s).md",
     "Deployments/GenericStaticSite.md",
     "Deployments/LaMaestraLoca.com.md",
     "Deployments/K12TechnologyTraining.com.md",
