@@ -107,7 +107,8 @@ kubectl logs my-app # recent logs for my-app
 >[!key definitions]
 >*Pod* - One or more containers. Best practice is one container per pod bc kube can mark the entire pod unhealthy.
 >*Replica Set* - (sets of pods) specify the number of pods available.
->*Replication Controller* - being deprecated with replica set
+>*Replication Controller* - being deprecated with replica set.
+>*template* - specifies the details from the pod deployment to match the configuration of original deployment pod.
 
 ## Pod
 ![[Kubernetes (k8s)#required fields for deployment.yml]]
@@ -138,7 +139,6 @@ spec:
 	  - name: nginx-controller
 	    image: nginx
 	replicas: 3 # sibling of spec
-	selector: # specify which pods fall under it <-- the main difference between replica controller and replica set
 ```
 
 deploy
@@ -176,7 +176,54 @@ spec:
         - name: nginx-container # '-' indicates first item in the list
           image: nginx
 replicas: 3
+selector: # specify which pods fall under it <-- the main difference between replica controller and replica set
+    matchLabels:
+      type: production
+      tier: front-end
+      classification: non-cui
 ```
+
+deploy
+```bash
+kubectl create -f replicaset-definition.yml
+```
+
+check status
+```bash
+kubectl get replicaset
+> NAME DESIRED CURRENT READY AGE 
+```
+
+scale replica set
+```bash
+nano replicaset-definition.yml
+> replicas: # update this value
+# then 
+kubectl replace -f replicaset-definition.yml
+
+# OR
+kubectl scale --replicas=6 -f replicaset-definition.yml
+
+# OR
+kubectl scale --replicas=6 replicaset myapp-replicaset # not recommended
+```
+
+## Deployments 
+
+
+## Load Balancer
+>[!content coming soon]
+
+## Storage Class
+>[!content coming soon]
+
+
+
+
+
+
+---
+
 # Set:
 ## Alias
 ```powershell
@@ -279,6 +326,11 @@ kubectl logs pod-name # pulls latest logs from pod
 kubectl describe pod-name # pull deploy details of a specified pod
 kubectl describe service # pull details of a particular service
 kubectl get pods -o wide # get all pods 
+
+kubectl get replicaset
+kubectl delete replicaset replicaset-name
+
+kubectl explain replicaset
 ```
 
 
