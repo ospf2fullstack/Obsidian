@@ -23,7 +23,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Technologies/Kubernetes (k8s).md",
+                        "file": "Technologies/Obsidian/Obsidian Syntax.md",
                         "mode": "source",
                         "backlinks": true,
                         "source": true
@@ -44,8 +44,7 @@
                     },
                     "group": "121d953a35077b27"
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "de4e4ad70c58aab0",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/YAML.md",
+                "file": "Technologies/Obsidian/Obsidian Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/YAML.md"
+                "file": "Technologies/Obsidian/Obsidian Syntax.md"
               }
             }
           },
@@ -175,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/YAML.md",
+                "file": "Technologies/Obsidian/Obsidian Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +201,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1106ef49f865516d",
+  "active": "420f651d75f1afc0",
   "lastOpenFiles": [
     "Technologies/Kubernetes (k8s).md",
     "Technologies/YAML.md",

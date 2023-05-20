@@ -1,3 +1,8 @@
+---
+title: Obsidian Syntax notes
+publish: true
+description: Used frequency, syntax notes for Obsidian notes. 
+---
 # Obsidian Syntax
 
 ## Embed Section Notes
@@ -15,4 +20,14 @@ Make sure you have the '!' before the reference link and then end the name with 
 >![info]
 >Add some text
 >And some more text
->
+
+## Metadata
+```yml
+---
+title: Kubernetes Notes
+publish: true # auto publish
+permalink: kubernetes # replace file name with short-hand address
+description: Everything I have been learning, gotchas included, about Kubernetes. 
+---
+
+```

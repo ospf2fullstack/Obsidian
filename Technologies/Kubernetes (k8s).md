@@ -1,3 +1,9 @@
+---
+title: Kubernetes Notes
+publish: true
+permalink: kubernetes
+description: Everything I have been learning, gotchas included, about Kubernetes. 
+---
 # Kubernetes (k8s)
 The most known Orchestration Technologies: 
 [[Docker Swarm]], [[Kubernetes (k8s)]], and [[MESOS]]
@@ -60,9 +66,27 @@ kubectl get pods -o wide
 ```
 deployments can be built with YAML Syntax, see: ![[YAML#YAML sample syntax]]. 
 
+Yaml files are used as inputs for orchestrating a Kubernetes pod deployment. 
 
+### required fields for deployment.yml
+>[!pod-deployment.yml]
+```yml, pod-deployment.yml
+apiVersion: v1 # could be apps/v1 for ReplicaSet and Deployment
+kind: Pod # case sensitive & could be Service, Deployment, ReplicaSet, etc...
+metadata: # in the form of a dictionary... (child objects)
+  name: myapp-pod 
+  labels: # labels should be at the same level as 'name:'
+    app: myapp # you can add any key:value pair you want under labels.
+    tier: front-end
+    type: production
+    
+spec:
+  containers: # list/array
+    - name: nginx-container # '-' indicates first item in the list
+      image: nginx
+```
 
-
+'kubectl apply -f pod-deployment.yml' to deploy the pod deployment. 
 
 
 

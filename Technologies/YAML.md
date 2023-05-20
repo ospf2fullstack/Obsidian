@@ -76,4 +76,16 @@ Price: $20,000
 	  Model: 1995
   Transmission: Automatic
   Price: $20,000
+  
+# using different content for a list of dictionaries
+employees:
+  - name: Sarah
+    hair_color: blonde
+    height: 86
+  - name: Fred
+    hair_color: brown
+    height: 72
 ```
+
+# building a deployment file with YAML for K8S
+![[Kubernetes (k8s)#required fields]]
