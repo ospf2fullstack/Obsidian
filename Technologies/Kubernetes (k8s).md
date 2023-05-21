@@ -323,11 +323,6 @@ spec:
 ## Storage Class
 >[!content coming soon]
 
-
-
-
-
-
 ---
 
 # Set:
