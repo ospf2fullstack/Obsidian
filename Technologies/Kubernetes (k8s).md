@@ -519,8 +519,9 @@ ls
 kubectl create -f .
 ```
 
-
-
+---
+# next steps
+Deploy to kubernetes directly, with [[Git]], [[Gitlab]], [[Github]], [[Jenkins]] and so many other options!
 
 ---
 

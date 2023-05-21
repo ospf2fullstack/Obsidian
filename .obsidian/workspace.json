@@ -10,7 +10,7 @@
           {
             "id": "638b4c65fe646505",
             "type": "tabs",
-            "dimension": 72.93064876957494,
+            "dimension": 71.50837988826815,
             "children": [
               {
                 "id": "420f651d75f1afc0",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/Kubernetes (k8s).md",
+                    "file": "Templates/SampleNote.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -29,17 +29,17 @@
             ]
           },
           {
-            "id": "9bbc7f212d92e28f",
+            "id": "0c5afcba49c34cd8",
             "type": "tabs",
-            "dimension": 27.069351230425053,
+            "dimension": 28.49162011173184,
             "children": [
               {
-                "id": "75607a6a3b98ee7f",
+                "id": "5a58b3df3546af42",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Technologies/Kubernetes (k8s).md"
+                    "file": "Templates/SampleNote.md"
                   }
                 },
                 "group": "e871d2e9836145c5"
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Templates/SampleNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md"
+                "file": "Templates/SampleNote.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Kubernetes (k8s).md",
+                "file": "Templates/SampleNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,8 +167,9 @@
   },
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
-    "Technologies/Helm.md",
     "Technologies/Kubernetes (k8s).md",
+    "Technologies/Jenkins.md",
+    "Technologies/Helm.md",
     "Technologies/JSON.md",
     "Technologies/Rancher (k3s).md",
     "Assets/innerarity.png",
@@ -192,7 +193,6 @@
     "Technologies/Terraform.md",
     "Technologies/SSL & TLS.md",
     "Technologies/SSH.md",
-    "Technologies/SQL.md",
-    "Technologies/RedHat.md"
+    "Technologies/SQL.md"
   ]
 }
