@@ -253,6 +253,9 @@ kubectl get pods
 kubectl get all
 ```
 
+## Networking
+
+
 ## Load Balancer
 >[!content coming soon]
 
@@ -302,6 +305,18 @@ kubectl get pod my-app -n namespace
 kubectl logs my-app
 kubectl logs my-app -n namespace
 ```
+
+# Context
+## AWS EKS
+```bash
+# make sure you have AWS CLI authentication completed ('aws configure')
+aws eks update-kubeconfig --region us-east-1 --name my-eks
+```
+
+## k3s (rancher)
+'cat /etc/rancher/k3s/k3s.yaml' then copy that to your local disk. 
+![[Rancher (k3s)#K3S Remote Cluster]]
+
 
 ---
 
