@@ -254,11 +254,72 @@ kubectl get all
 ```
 
 ## Networking
+### NodePort
+Service: NodePort - Maps internal port to port on the Node
+- 3 ports to map
+	- targetPort (on pod)
+	- Port (on service)
+	- nodePort (on node (external) port range of 30000-32767)
+```yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  type: NodePort
+  ports:
+    - targetPort: 80 # pod, if you don't provide it, it'll default to 'port'
+      port: 80 # service
+      nodePort: 30008 # node, if you don't provide it, it'll default to random within the 30000-32767 range...
+  selector:
+    labels: # should match what you have in the pod-definition.yml
+      app: myapp
+      type: front-end
+```
+deploy
+```bash
+kubectl create -f service-definition.yml
+```
+
+check status
+```bash
+kubectl get services
+```
 
 
-## Load Balancer
->[!content coming soon]
-
+### ClusterIP
+Service: ClusterIP - creates virtual IP on service for service to service communication. 
+```yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: back-end
+spec:
+  type: ClusterIP
+  ports:
+    - targetPort: 80
+      port: 80
+  selector:
+    app: myapp
+    type: back-end
+```
+### Load Balancer
+Service: LoadBalancer - Distributes load among front-end tier
+```yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  type: LoadBalancer
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+  selector:
+    app: myapp
+    type: back-end
+```
 ## Storage Class
 >[!content coming soon]
 
@@ -399,9 +460,16 @@ kubectl get pod -o wide
 # Troubleshooting 
 ```bash
 kubectl logs pod-name # pulls latest logs from pod
+
 kubectl describe pod-name # pull deploy details of a specified pod
 kubectl describe service # pull details of a particular service
 kubectl describe deployments -n namespace 
+kubectl describe deployment deployment-name
+kubectl get services
+kubectl describe service service-name
+
+kubectl get deployments
+
 kubectl get pods -o wide # get all pods 
 
 kubectl get replicaset

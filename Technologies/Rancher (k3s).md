@@ -1,9 +1,5 @@
 # k3s
-
-## Raspberry Pi
-
-### Image
-
+## Raspbian Image
 Use Raspberry Pi (other) → Lite Weight (64bit, no gui)
 
 Before removing from disk, make sure you edit this file now, or you will need to edit the /boot/cmdline.txt later
@@ -15,7 +11,6 @@ Before removing from disk, make sure you edit this file now, or you will need to
     -   location
 
 ### Boot
-
 Add this to the end of your cmdline.txt file in the Boot disk root directory (while it’s still plugged into your PC) - or skip
 
 ```bash
@@ -25,25 +20,21 @@ ip=10.255.255.254::10.255.255.1:255.255.255.0:rpimaster:eth0:off
 ```
 
 ## Configure Raspberry Pi
-
 In raspberry pi, update and install rancher k3s
 
 ### SSH
-
 ```bash
 ssh username@raspberrypi-ip-address
 # ssh pi@192.168.1.2
 ```
 
 ### Updates
-
 ```bash
 # run your damn updates
 sudo apt-get update && apt-get upgrade
 ```
 
 ### Bc, you’re lazy
-
 ```bash
 # I know you didn't do what I told you above, so here it is again
 sudo nano /boot/cmdline.txt
@@ -56,9 +47,7 @@ sudo reboot
 ```
 
 ## The real Control
-
 ### Rancher (k3s)
-
 ```bash
 # now you're ready to install rancher
 # do this on the MASTER node only. Use the command down below on the worker nodes. 
@@ -73,16 +62,11 @@ cat /var/lib/rancher/k3s/server/node-token
 ```
 
 ### Worker Nodes
-
-<aside> 📌 (repeat for every worker node)
-
-</aside>
+<aside> 📌 (repeat for every worker node)</aside>
 
 Do everything above, but use the below command to register it with the master node:
 
-<aside> ⚠️ GET TOKEN FROM “Rancher” code above
-
-</aside>
+<aside> ⚠️ GET TOKEN FROM “Rancher” code above</aside>
 
 ```bash
 # look up for the process to get the token
@@ -109,6 +93,7 @@ scp innerarity@10.255.255.254:/etc/rancher/k3s/k3s.yaml .
 # copies the remote rancher yaml to '.' local. 
 ```
 
+[k3s kubernetes dashboard](https://docs.k3s.io/installation/kube-dashboard)
 
 [[Linux]], [[Cloud]]
 
