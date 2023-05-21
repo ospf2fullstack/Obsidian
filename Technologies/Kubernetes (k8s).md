@@ -209,7 +209,49 @@ kubectl scale --replicas=6 replicaset myapp-replicaset # not recommended
 ```
 
 ## Deployments 
+Deployments supersede Replica sets, but are basically exactly the same. 
+```yml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+    tier
+spec:
+  template:
+    metadata: # in the form of a dictionary... (child objects)
+      name: myapp-pod 
+    labels: # labels should be at the same level as 'name:'
+      app: myapp # you can add any key:value pair you want under labels.
+      tier: front-end
+      type: production
+    spec:
+      containers: # list/array
+        - name: nginx-container # '-' indicates first item in the list
+          image: nginx
+replicas: 3
+selector: # specify which pods fall under it <-- the main difference between replica controller and replica set
+    matchLabels:
+      type: production
+      tier: front-end
+      classification: non-cui
+```
 
+deploy
+```bash
+kubectl create -f deployment-definition.yml
+```
+
+check status 
+```bash
+kubectl get deployments 
+kubectl get replicaset 
+> NAME DESIRED CURRENT READY AGE # name now has deployment name
+kubectl get pods 
+
+kubectl get all
+```
 
 ## Load Balancer
 >[!content coming soon]
@@ -304,7 +346,26 @@ kubectl delete replicaset <name>
 kubectl get nodes
 ```
 
-# Force Rolling Restart/Update
+
+---
+# Rollouts
+## Rollout Commands
+```bash
+kubectl rollout status deployment/myapp-deployment # status
+kubectl rollout history deployment/myapp-deployment # history
+```
+Rolling updates is the default update strategy. 
+### Updates
+```bash
+# modify the definition file (deploy)
+kubectl apply -f deployment-definition.yml
+```
+#### Revert a Rollout
+```bash
+kubectl rollout undo deployment/myapp-deployment
+```
+
+## Force Restart
 ## Pods (pulls new image)
 If you have a new image, or just want to pull the latest image again without updating the code, use the below commands to force Kubernetes to restart (deploy a new pod, when it's active, replace the old pod)
 ```bash
@@ -325,12 +386,15 @@ kubectl get pod -o wide
 kubectl logs pod-name # pulls latest logs from pod
 kubectl describe pod-name # pull deploy details of a specified pod
 kubectl describe service # pull details of a particular service
+kubectl describe deployments -n namespace 
 kubectl get pods -o wide # get all pods 
 
 kubectl get replicaset
 kubectl delete replicaset replicaset-name
 
 kubectl explain replicaset
+
+kubectl get all -n namespace 
 ```
 
 
