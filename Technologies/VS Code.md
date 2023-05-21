@@ -1,3 +1,11 @@
+---
+title: VS Code
+description: Visual Studio Code
+publish: true
+permalink: Code
+tag: vscode
+image: "Assets/innerarity.png"
+---
 # VSCode
 Also referred to as Code
 

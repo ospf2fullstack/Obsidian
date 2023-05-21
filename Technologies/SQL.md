@@ -1,3 +1,11 @@
+---
+title: SQL
+description: SQL Notes
+publish: true
+permalink: SQL
+tag: sql
+image: "Assets/innerarity.png"
+---
 # SQL
 ## Relational Database
 Each time a new table is added, there's always a left over of gaps from prior data not being added. 

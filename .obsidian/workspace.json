@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Templates/SampleNote.md",
+                    "file": "Technologies/RedHat.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -39,7 +39,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Templates/SampleNote.md"
+                    "file": "Technologies/RedHat.md"
                   }
                 },
                 "group": "e871d2e9836145c5"
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/SampleNote.md",
+                "file": "Technologies/RedHat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/SampleNote.md"
+                "file": "Technologies/RedHat.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/SampleNote.md",
+                "file": "Technologies/RedHat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,15 +167,21 @@
   },
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
-    "Technologies/Kubernetes (k8s).md",
+    "Technologies/SQL.md",
+    "Technologies/SSH.md",
+    "Technologies/SSL & TLS.md",
+    "Technologies/Terraform.md",
+    "Technologies/VS Code.md",
+    "Technologies/XML.md",
+    "Technologies/YAML.md",
+    "Templates/SampleNote.md",
     "Technologies/Jenkins.md",
+    "Technologies/Kubernetes (k8s).md",
     "Technologies/Helm.md",
     "Technologies/JSON.md",
     "Technologies/Rancher (k3s).md",
     "Assets/innerarity.png",
     "Technologies/Obsidian/Obsidian Syntax.md",
-    "Technologies/YAML.md",
-    "Technologies/XML.md",
     "Technologies/gitignore.md",
     "Technologies/Docker.md",
     "Technologies/HTML.md",
@@ -187,12 +193,6 @@
     "Deployments/AWS Cloud Resume Challenge.md",
     "Technologies/Obsidian/Obsidian Publish.md",
     "Technologies/Obsidian/Obsidian Plugins.md",
-    "Technologies/Obsidian/Obsidian.md",
-    "Technologies/VS Code.md",
-    "Technologies/Tools.md",
-    "Technologies/Terraform.md",
-    "Technologies/SSL & TLS.md",
-    "Technologies/SSH.md",
-    "Technologies/SQL.md"
+    "Technologies/Obsidian/Obsidian.md"
   ]
 }

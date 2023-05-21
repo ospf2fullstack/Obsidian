@@ -1,3 +1,11 @@
+---
+title: YAML
+description: YAML/YML Notes
+publish: true
+permalink:YAML
+tag: YAML
+image: "Assets/innerarity.png"
+---
 # YAML
 ## YAML sample syntax
 ```yml

@@ -1,3 +1,11 @@
+---
+title: Terraform
+description: Terraform Notes
+publish: true
+permalink: terraform
+tag: terraform
+image: "Assets/innerarity.png"
+---
 # Terraform
 
 <aside> 🛠 UPGRADE TO A NEW VERSION

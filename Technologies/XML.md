@@ -1,3 +1,11 @@
+---
+title: XML
+description: XML notes.
+publish: true
+permalink: XML
+tag: xml
+image: "Assets/innerarity.png"
+---
 # XML
 ## XML sample syntax
 ```xml

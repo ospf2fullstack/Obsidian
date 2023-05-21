@@ -1,3 +1,11 @@
+---
+title: SSH
+description: SSH Basics
+publish: true
+permalink: SSH
+tag: ssh
+image: "Assets/innerarity.png"
+---
 # SSH
 ## CLI Command
 ```bash
