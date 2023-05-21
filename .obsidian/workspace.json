@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/RedHat.md",
+                    "file": "Technologies/Jenkins.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -39,7 +39,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Technologies/RedHat.md"
+                    "file": "Technologies/Jenkins.md"
                   }
                 },
                 "group": "e871d2e9836145c5"
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/RedHat.md",
+                "file": "Technologies/Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/RedHat.md"
+                "file": "Technologies/Jenkins.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/RedHat.md",
+                "file": "Technologies/Jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +167,8 @@
   },
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
+    "Technologies/CICD.md",
+    "Technologies/RedHat.md",
     "Technologies/SQL.md",
     "Technologies/SSH.md",
     "Technologies/SSL & TLS.md",
@@ -191,8 +193,6 @@
     "Deployments/GaryInnerarity.com.md",
     "Deployments/Brain.GaryInnerarity.com.md",
     "Deployments/AWS Cloud Resume Challenge.md",
-    "Technologies/Obsidian/Obsidian Publish.md",
-    "Technologies/Obsidian/Obsidian Plugins.md",
-    "Technologies/Obsidian/Obsidian.md"
+    "Technologies/Obsidian/Obsidian Publish.md"
   ]
 }
