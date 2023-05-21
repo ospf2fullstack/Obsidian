@@ -320,6 +320,23 @@ spec:
     app: myapp
     type: back-end
 ```
+## Environment Variables
+```yml
+apiVersion: v1
+...
+
+spec:
+  containers:
+    - name: postgres # container name, obviously
+      image: postgres
+      ports:
+        - containerPort: 5432
+      env:
+        - name: POSTGRES_USER
+          value: "postgres" # this should be a var ${postgres_user}
+        - name: POSTGRES_PASSWORD
+          value: ${POSTGRES_PASSWORD}
+```
 ## Storage Class
 >[!content coming soon]
 
@@ -417,8 +434,21 @@ kubectl delete replicaset <name>
 kubectl get nodes
 ```
 
+---
+# kubeadm
+Needs multiple nodes to configure kubeadm. One master, the rest worker nodes. 
+Then, install containerd and kubeadm. 
+Initialize master server and then verify network prerequisites (pod network).
+Join worker nodes to master node. 
+```bash
+# install [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
+# install container runtime (containerd is fine)
+<details coming>
+
+```
 
 ---
+
 # Rollouts
 ## Rollout Commands
 ```bash
@@ -449,6 +479,48 @@ kubectl rollout restart deployment deployment-deploy-name -n namespace
 # monitor the process, should take about 90s
 kubectl get pod -o wide
 ```
+
+---
+# Cloud Provided Kubernetes Clusters
+## GKE (Google Kubernetes Engine)
+Open Project -> GKE -> Create Cluster -> Default All other settings
+```bash
+# gcloud cli
+gcloud container clusters get-credentials example-app-cluster --zone us-central1-c --project my-project-name-234
+
+kubectl get nodes
+
+# pull definition files into cluster
+git clone https://github.com/someuser/repo-name
+ls
+
+# deploy all files copied from repo
+kubectl create -f .
+```
+
+## EKS (AWS Elastic Kubernetes Service)
+```bash
+# aws cli - install
+# aws cli - authentication (configure)
+# in EKS, add name, select role, default VPC
+
+# add Node Group, role, and name with default subnets
+
+# add cluster config to shell
+aws eks --region us-east-1 update-kubeconfig --name example-app-cluster
+
+# verify
+kubectl get nodes
+
+# pull definition files into cluster
+git clone https://github.com/someuser/repo-name
+ls
+
+kubectl create -f .
+```
+
+
+
 
 ---
 
