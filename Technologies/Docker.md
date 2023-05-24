@@ -1,5 +1,5 @@
 # Docker
-```docker
+```bash
 # verify docker is installed
 docker version
 ```
@@ -15,7 +15,7 @@ Docker Registry is where you can story your images or pull official images from.
 
 ## Key Commands
 
-```docker
+```bash
 # Set alias in PowerShell
 Set-Alias d docker
 # Build 
@@ -26,7 +26,7 @@ docker run . # runs the Dockerfile from where you are
 
 ## Concepts
 You're building a set of instructions for each command you need to run to build your web-app. 
-```docker
+```dockerfile
 FROM # specify base image
 WORKDIR # specify working directory
 COPY # files
