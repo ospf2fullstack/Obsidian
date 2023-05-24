@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/Github.md",
+                    "file": "Technologies/Git.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -43,7 +43,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "Technologies/Github.md"
+                        "file": "Technologies/Git.md"
                       }
                     },
                     "group": "e871d2e9836145c5"
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Github.md",
+                "file": "Technologies/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Github.md"
+                "file": "Technologies/Git.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Github.md",
+                "file": "Technologies/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,8 +188,8 @@
   },
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
-    "Technologies/Git.md",
     "Technologies/Github.md",
+    "Technologies/Git.md",
     "Technologies/Kubernetes (k8s).md",
     "Technologies/Jenkins.md",
     "Technologies/CICD.md",
