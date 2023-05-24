@@ -10,7 +10,7 @@
           {
             "id": "638b4c65fe646505",
             "type": "tabs",
-            "dimension": 71.50837988826815,
+            "dimension": 66.82769726247987,
             "children": [
               {
                 "id": "420f651d75f1afc0",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/Jenkins.md",
+                    "file": "Technologies/Github.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -29,22 +29,43 @@
             ]
           },
           {
-            "id": "0c5afcba49c34cd8",
-            "type": "tabs",
-            "dimension": 28.49162011173184,
+            "id": "39025b0b4817590f",
+            "type": "split",
+            "dimension": 33.17230273752013,
             "children": [
               {
-                "id": "5a58b3df3546af42",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Technologies/Jenkins.md"
+                "id": "0c5afcba49c34cd8",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "5a58b3df3546af42",
+                    "type": "leaf",
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "Technologies/Github.md"
+                      }
+                    },
+                    "group": "e871d2e9836145c5"
                   }
-                },
-                "group": "e871d2e9836145c5"
+                ]
+              },
+              {
+                "id": "24680171412701f5",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "e2e58f44a23b93c1",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {}
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "horizontal"
           }
         ],
         "direction": "vertical"
@@ -105,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Jenkins.md",
+                "file": "Technologies/Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/Jenkins.md"
+                "file": "Technologies/Github.md"
               }
             }
           },
@@ -138,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Jenkins.md",
+                "file": "Technologies/Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,6 +188,10 @@
   },
   "active": "420f651d75f1afc0",
   "lastOpenFiles": [
+    "Technologies/Git.md",
+    "Technologies/Github.md",
+    "Technologies/Kubernetes (k8s).md",
+    "Technologies/Jenkins.md",
     "Technologies/CICD.md",
     "Technologies/RedHat.md",
     "Technologies/SQL.md",
@@ -177,8 +202,6 @@
     "Technologies/XML.md",
     "Technologies/YAML.md",
     "Templates/SampleNote.md",
-    "Technologies/Jenkins.md",
-    "Technologies/Kubernetes (k8s).md",
     "Technologies/Helm.md",
     "Technologies/JSON.md",
     "Technologies/Rancher (k3s).md",
@@ -191,8 +214,6 @@
     "Deployments/LaMaestraLoca.com.md",
     "Deployments/K12TechnologyTraining.com.md",
     "Deployments/GaryInnerarity.com.md",
-    "Deployments/Brain.GaryInnerarity.com.md",
-    "Deployments/AWS Cloud Resume Challenge.md",
-    "Technologies/Obsidian/Obsidian Publish.md"
+    "Deployments/Brain.GaryInnerarity.com.md"
   ]
 }

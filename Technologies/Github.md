@@ -1,5 +1,7 @@
 # Github
 Using [[Git]] to source control your repositories. 
+Basic
+![[Git#Init (initialize)]]
 
 ## Profile Stats
 

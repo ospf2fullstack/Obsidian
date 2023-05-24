@@ -14,6 +14,9 @@ git clone https://github.com/username/repo/id...
 # stage a branch
 git branch someBranchName
 
+# checkout
+git checkout someBranchName
+
 # track files
 git status # verify which files are not currently tracked
 git add . # adds all changed files to the git push stage 
