@@ -91,7 +91,12 @@ Deploy the yml file to make your pod:
 ```yml
 kubectl create -f pod-deployment.yml
 kubectl run -f pod-deployment.yml # new deployment
-kubectl apply -f pod-deployment.yml # updates to deployment file 
+kubectl apply -f pod-deployment.yml # updates to deployment file
+
+# view deployment status
+kubectl get deployment deploy-name -n namespace
+
+
 ```
 
 ### Basic Troubleshooting
@@ -466,7 +471,7 @@ kubectl apply -f deployment-definition.yml
 kubectl rollout undo deployment/myapp-deployment
 ```
 
-## Force Restart
+## Force Restart (Rolling Updates)
 ## Pods (pulls new image)
 If you have a new image, or just want to pull the latest image again without updating the code, use the below commands to force Kubernetes to restart (deploy a new pod, when it's active, replace the old pod)
 ```bash
@@ -479,6 +484,8 @@ kubectl rollout restart deployment deployment-deploy-name -n namespace
 # monitor the process, should take about 90s
 kubectl get pod -o wide
 ```
+
+## Kill Process
 
 ---
 # Cloud Provided Kubernetes Clusters
@@ -546,6 +553,9 @@ kubectl delete replicaset replicaset-name
 kubectl explain replicaset
 
 kubectl get all -n namespace 
+
+# pull a containers envs
+kubectl -n namespace exec -it pod-name env
 ```
 
 

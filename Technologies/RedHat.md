@@ -1,3 +1,7 @@
+---
+title: Redhat
+publish: true
+---
 # RedHat
 [[Linux]] UBI image 
 

@@ -10,7 +10,7 @@
           {
             "id": "638b4c65fe646505",
             "type": "tabs",
-            "dimension": 61.03059581320451,
+            "dimension": 61.030595813204506,
             "children": [
               {
                 "id": "420f651d75f1afc0",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/Docker.md",
+                    "file": "Technologies/Kubernetes (k8s).md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -43,7 +43,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "Technologies/Docker.md"
+                        "file": "Technologies/Kubernetes (k8s).md"
                       }
                     },
                     "group": "e871d2e9836145c5"
@@ -126,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Technologies/Docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,7 +156,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,10 +182,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "420f651d75f1afc0",
+  "active": "e2e58f44a23b93c1",
   "lastOpenFiles": [
     "Technologies/Kubernetes (k8s).md",
     "Technologies/Helm.md",
+    "Technologies/Line Endings.md",
+    "3D Prints.md",
+    "Assets/6a4dcdade75e2d5adc996507c736d3eb.jpg",
+    "Deployments/Innerarity.md",
+    "Technologies/NGINX.md",
+    "Technologies/ModelViewer.md",
+    "Home Garden/Our Home Garden.md",
+    "Home Garden",
+    "Technologies/Docker.md",
     "Unreal Engine/UnrealEngine.md",
     "Technologies/Git.md",
     "Unreal Engine",
@@ -208,13 +213,6 @@
     "Technologies/JSON.md",
     "Technologies/Rancher (k3s).md",
     "Assets/innerarity.png",
-    "Technologies/Obsidian/Obsidian Syntax.md",
-    "Technologies/gitignore.md",
-    "Technologies/Docker.md",
-    "Technologies/HTML.md",
-    "Deployments/GenericStaticSite.md",
-    "Deployments/LaMaestraLoca.com.md",
-    "Deployments/K12TechnologyTraining.com.md",
-    "Deployments/GaryInnerarity.com.md"
+    "Technologies/Obsidian/Obsidian Syntax.md"
   ]
 }
