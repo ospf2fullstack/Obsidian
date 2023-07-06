@@ -1,4 +1,10 @@
+---
+title: pfsense
+publish: true
+tag: pfsense
+---
 # pfsense
+One of the leading open source [[Networking]] devices/software on the market. 
 ## VLAN
 
 Interfaces → Assignments → VLANs

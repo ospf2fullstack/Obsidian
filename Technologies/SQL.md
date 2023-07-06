@@ -30,6 +30,7 @@ Store information in the form of a document/page with Key:Value pairs with JSON 
 # MySQL
 port: 3306 (default)
 ## Installation
+On [[Linux]]
 ```bash
 wget https://dev.mysql.com/get/...version.rpm
 

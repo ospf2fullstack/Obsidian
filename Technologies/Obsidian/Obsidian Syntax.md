@@ -17,7 +17,7 @@ Make sure you have the '!' before the reference link and then end the name with 
 
 ## Callouts
 
->![info]
+>[!info]
 >Add some text
 >And some more text
 

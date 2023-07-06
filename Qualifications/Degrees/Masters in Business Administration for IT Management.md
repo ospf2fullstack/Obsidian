@@ -1,1 +1,1 @@
-
+My MBA covered everything from [[Networking]] management, [[Human Capital]], [[Business Growth]], and [[Ethical]] courses. 

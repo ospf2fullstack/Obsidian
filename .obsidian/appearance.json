@@ -1,9 +1,11 @@
 {
-  "accentColor": "#3781a9",
-  "cssTheme": "Minimal",
+  "accentColor": "#033ec9",
+  "cssTheme": "",
   "interfaceFontFamily": "Georgia",
   "theme": "obsidian",
   "textFontFamily": "Georgia",
   "monospaceFontFamily": "Andale Mono",
-  "translucency": false
+  "translucency": false,
+  "showViewHeader": true,
+  "baseFontSize": 14
 }

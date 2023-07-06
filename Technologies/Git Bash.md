@@ -66,5 +66,7 @@ unset AWS_SESSION_TOKEN
 printenv | grep AWS_SESSION_KEY_ID
 ```
 
+## Install Binary
+![[Environment Variables#Git Bash]]
 
 #git 

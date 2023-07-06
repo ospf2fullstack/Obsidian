@@ -26,6 +26,7 @@ Worker Nodes - Minion nodes host the containers
 - container runtime - used to run containers (docker)
 - controller - orchestration brain, meant to respond to node activity (failure)
 - scheduler - distributing work across worker nodes
+<<<<<<< Updated upstream
 
 ---
 
@@ -118,6 +119,107 @@ kubectl logs my-app # recent logs for my-app
 ## Pod
 ![[Kubernetes (k8s)#required fields for deployment.yml]]
 
+=======
+
+---
+# Basics
+## kubectl basics
+tool used to manage applications on kubernetes cluster
+```bash
+# run is used to run a container on the k8s cluster
+kubectl run hello-minikube
+
+# cluster-info is used to gather cluster information from k8s
+kubectl cluster-info
+
+# get is used to get the nodes or pods from a cluster
+kubectl get nodes
+kubectl get pods 
+```
+
+## create namespace
+```bash
+kubectl create namespace $namespace
+```
+
+
+
+## Pods
+>[!best practice]
+>Have a 1:1 pod to container ratio. 
+### basic deployment
+```bash
+kubectl run nginx --image nginx
+> pod/nginx created
+
+kubectl get pods
+> NAME  READY  STATUS  RESTARTS  AGE 
+
+kubectl describe pod nginx
+> Name:
+> Namespace:
+> ...
+
+kubectl get pods -o wide 
+> # same as 'get pods', but with IP added
+
+```
+
+deployments can be built with YAML Syntax, see: ![[YAML#YAML sample syntax]]. 
+
+Yaml files are used as inputs for orchestrating a Kubernetes pod deployment. 
+
+kubectl create
+### required fields for deployment.yml
+>[!pod-deployment.yml]
+```yml, pod-deployment.yml
+apiVersion: v1 # could be apps/v1 for ReplicaSet and Deployment
+kind: Pod # case sensitive & could be Service, Deployment, ReplicaSet, etc...
+metadata: # in the form of a dictionary... (child objects)
+  name: myapp-pod 
+  labels: # labels should be at the same level as 'name:'
+    app: myapp # you can add any key:value pair you want under labels.
+    tier: front-end
+    type: production
+    
+spec:
+  containers: # list/array
+    - name: nginx-container # '-' indicates first item in the list
+      image: nginx
+```
+
+Deploy the yml file to make your pod: 
+```yml
+kubectl create -f pod-deployment.yml
+kubectl run -f pod-deployment.yml # new deployment
+kubectl apply -f pod-deployment.yml # updates to deployment file
+
+# view deployment status
+kubectl get deployment deploy-name -n namespace
+
+
+```
+
+### Basic Troubleshooting
+```bash
+kubectl describe pods # all pods
+kubectl describe pod my-app # single pod 
+kubectl logs my-app # recent logs for my-app
+```
+
+---
+
+# Definitions:
+>[!key definitions]
+>*Pod* - One or more containers. Best practice is one container per pod bc kube can mark the entire pod unhealthy.
+>*Replica Set* - (sets of pods) specify the number of pods available.
+>*Replication Controller* - being deprecated with replica set.
+>*template* - specifies the details from the pod deployment to match the configuration of original deployment pod.
+
+## Pod
+![[Kubernetes (k8s)#required fields for deployment.yml]]
+
+>>>>>>> Stashed changes
 ## Replication Controller (being deprecated)
 ```yml
 apiVersion: v1
@@ -348,7 +450,11 @@ spec:
 ---
 
 # Set:
+<<<<<<< Updated upstream
 ## Alias
+=======
+## Set Alias
+>>>>>>> Stashed changes
 ```powershell
 # set syntax/command alias in terminal (powershell)
 Set-Alias k kubectl
@@ -357,15 +463,39 @@ Set-Alias k kubectl
 alias k="kubectl"
 ```
 
+<<<<<<< Updated upstream
 ## Context
+=======
+## Set Context
 ```bash
 # configure your environment variables, so if you're using AWS to host your EKS cluster, run 'aws configure'
+# 1) step one - set environment
 aws configure [aws access key, aws secret key, region, format]
 
-# pull your context down
+# 2) step two - pull context config from EKS
 aws eks update-kubeconfig --region <region> --name <cluster-name>
 ```
 
+# List:
+## List Context
+```bash
+kubectl config get-contexts # get the current context contents from local machine (aka., configuration)
+kubectl get pods --all-namespaces # list all active pods and their status across all namespaces
+```
+## List Pods
+>>>>>>> Stashed changes
+```bash
+kubectl get pods
+kubectl get pod my-app
+kubectl get pod my-app -n namespace
+```
+## List Logs
+```bash
+kubectl logs my-app
+kubectl logs my-app -n namespace
+```
+
+<<<<<<< Updated upstream
 # List:
 ## Context
 ```bash
@@ -395,6 +525,19 @@ aws eks update-kubeconfig --region us-east-1 --name my-eks
 'cat /etc/rancher/k3s/k3s.yaml' then copy that to your local disk. 
 ![[Rancher (k3s)#K3S Remote Cluster]]
 
+=======
+# Update Context
+## Add/Update AWS EKS Context
+```bash
+# make sure you have AWS CLI authentication completed ('aws configure')
+aws eks update-kubeconfig --region us-east-1 --name my-eks
+```
+
+## k3s (rancher)
+'cat /etc/rancher/k3s/k3s.yaml' then copy that to your local disk. 
+![[Rancher (k3s)#K3S Remote Cluster]]
+
+>>>>>>> Stashed changes
 
 ---
 

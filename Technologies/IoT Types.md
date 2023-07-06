@@ -37,3 +37,10 @@ MEMS Sensors
 -   Optical Sensors (plant shifts)
 -   Motion or Gyroscope
 -   Capacity Sensor (AI integrated)
+
+# [[Networking]] for IoT
+WPA
+WPA2
+Cellular
+Bluetooth
+NFC

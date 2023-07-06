@@ -1,9 +1,12 @@
+---
+title: Gary Innerarity, MBA
+description: Solution Architect, Automation Engineer, I need to go to AA for K8S. 
+publish: true
+---
 # Hello👋
 
-- 🔭 I’m currently working on Digital Twins; exploring BIM optimization in advanced manufacturer facilities.
-- 🌱 I’m currently expanding my list of Technologies under my skill belt.
-- ⚡ Fun fact: I have an obsession with learning and tinkering, checkout my Qualifications. 
-- I also enjoy sharing and documenting my  Deployments and Labs for the off chance that they help others. 
+- 🔭 I’m currently working on Digital Twins with the National Center for Advanced Manufacturing; exploring BIM automation and optimization.
+- 🌱 I'm also currently working on the endless technologies that make up the modern digital infrastructure that we are all dependent on. This covers everything from Terraform, K8s, K3s, Docker and well... anything you see under "Technologies to the left". 
 
 ---
 ## Things I Break
@@ -22,9 +25,6 @@
  - <img alt="GitLab" src="https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab"/>
  - <img alt="Raspberry Pi" src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi"/>
 ---
-# Github Stats
-![Hub Stats](https://github-readme-stats.vercel.app/api?username=ospf2fullstack&show_icons=true&hide_title=true&theme=solarized-dark&count_private=true&hide=stars)
-![Hub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ospf2fullstack&hide=TeX&layout=compact)
 
----
+
 #home 

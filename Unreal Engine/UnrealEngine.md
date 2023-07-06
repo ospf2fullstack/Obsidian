@@ -12,4 +12,11 @@ In the engine, you can set the commands below to increase performance.
 ```c++
 r.lidarPointBucket 20000000 // set global point budget to 20 million
 stat lidarpointcloud //view active stats
+<<<<<<< Updated upstream
 ```
+=======
+```
+
+
+# [[Pawns]]
+>>>>>>> Stashed changes

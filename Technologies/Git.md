@@ -45,6 +45,13 @@ git status # habit to make sure you're clean and good to code
 ```
 
 # Basic Syntax
+## Authentication
+### HTTPS
+![[Github#Personal Access Token (HTTP)]]
+
+### SSH
+![[Github#SSH Key]]
+
 
 ## Credentials
 
@@ -68,4 +75,16 @@ git status # see changes
 git add .  # set the changes 
 git commit -m "put your comment here" # commit the changes
 git push   # publish the changes 
+```
+
+# Advanced
+## Get Latest
+```bash
+git pull
+```
+
+## Get Latest to branch
+```bash
+git checkout main
+git checkout your-local-branch && git rebase main
 ```
