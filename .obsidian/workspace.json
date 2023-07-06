@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Technologies/Kubernetes (k8s).md",
+                    "file": "Technologies/Python.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -43,7 +43,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "Technologies/Kubernetes (k8s).md"
+                        "file": "Technologies/Python.md"
                       }
                     },
                     "group": "e871d2e9836145c5"
@@ -126,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technologies/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technologies/Python.md"
+              }
             }
           },
           {
@@ -156,6 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technologies/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +186,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e2e58f44a23b93c1",
+  "active": "420f651d75f1afc0",
   "lastOpenFiles": [
     "Technologies/Kubernetes (k8s).md",
     "Technologies/Helm.md",
